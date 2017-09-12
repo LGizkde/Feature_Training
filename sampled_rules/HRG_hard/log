@@ -1,0 +1,641 @@
+132362 rules, 22658 rule types, loglikelihood: -1027520.85959
+Finished the 1-th iteration on the clusters
+The likelihood from last iteration is -1027520.85959
+60697 rules, 22369 rule types, loglikelihood: -662265.798889
+iteration time: 729.177706957 sec
+Finished the 2-th iteration on the clusters
+The likelihood from last iteration is -662265.798889
+35779 rules, 17925 rule types, loglikelihood: -539705.658962
+iteration time: 535.907661915 sec
+Finished the 3-th iteration on the clusters
+The likelihood from last iteration is -539705.658962
+28476 rules, 16807 rule types, loglikelihood: -500456.517784
+iteration time: 480.494878769 sec
+Finished the 4-th iteration on the clusters
+The likelihood from last iteration is -500456.517784
+26265 rules, 16455 rule types, loglikelihood: -488148.363956
+iteration time: 460.246221781 sec
+Finished the 5-th iteration on the clusters
+The likelihood from last iteration is -488148.363956
+25386 rules, 16126 rule types, loglikelihood: -483722.600877
+iteration time: 475.692394018 sec
+Finished the 6-th iteration on the clusters
+The likelihood from last iteration is -483722.600877
+25153 rules, 16120 rule types, loglikelihood: -481754.708353
+iteration time: 457.082985163 sec
+Finished the 7-th iteration on the clusters
+The likelihood from last iteration is -481754.708353
+24995 rules, 16063 rule types, loglikelihood: -480609.02193
+iteration time: 449.987338066 sec
+Finished the 8-th iteration on the clusters
+The likelihood from last iteration is -480609.02193
+24945 rules, 16079 rule types, loglikelihood: -479902.111428
+iteration time: 447.796024084 sec
+Finished the 9-th iteration on the clusters
+The likelihood from last iteration is -479902.111428
+24861 rules, 16045 rule types, loglikelihood: -479361.63145
+iteration time: 455.425297022 sec
+Finished the 10-th iteration on the clusters
+The likelihood from last iteration is -479361.63145
+24931 rules, 16135 rule types, loglikelihood: -479024.290604
+iteration time: 469.857676983 sec
+Finished the 11-th iteration on the clusters
+The likelihood from last iteration is -479024.290604
+24912 rules, 16084 rule types, loglikelihood: -478827.671774
+iteration time: 451.306502819 sec
+Finished the 12-th iteration on the clusters
+The likelihood from last iteration is -478827.671774
+24805 rules, 16044 rule types, loglikelihood: -478571.229729
+iteration time: 452.955492973 sec
+Finished the 13-th iteration on the clusters
+The likelihood from last iteration is -478571.229729
+24834 rules, 16075 rule types, loglikelihood: -478319.837354
+iteration time: 454.013299942 sec
+Finished the 14-th iteration on the clusters
+The likelihood from last iteration is -478319.837354
+24762 rules, 15990 rule types, loglikelihood: -477922.496441
+iteration time: 453.708843946 sec
+Finished the 15-th iteration on the clusters
+The likelihood from last iteration is -477922.496441
+24758 rules, 15959 rule types, loglikelihood: -477716.546736
+iteration time: 472.623866081 sec
+Finished the 16-th iteration on the clusters
+The likelihood from last iteration is -477716.546736
+24806 rules, 16033 rule types, loglikelihood: -477583.99119
+iteration time: 450.415618896 sec
+Finished the 17-th iteration on the clusters
+The likelihood from last iteration is -477583.99119
+24799 rules, 16023 rule types, loglikelihood: -477348.986824
+iteration time: 452.176801205 sec
+Finished the 18-th iteration on the clusters
+The likelihood from last iteration is -477348.986824
+24865 rules, 16055 rule types, loglikelihood: -477455.520705
+iteration time: 445.515969038 sec
+Finished the 19-th iteration on the clusters
+The likelihood from last iteration is -477455.520705
+24806 rules, 16007 rule types, loglikelihood: -477298.264361
+iteration time: 453.190675974 sec
+Finished the 20-th iteration on the clusters
+The likelihood from last iteration is -477298.264361
+24890 rules, 16048 rule types, loglikelihood: -477200.284369
+iteration time: 469.099729776 sec
+Finished the 21-th iteration on the clusters
+The likelihood from last iteration is -477200.284369
+24816 rules, 15986 rule types, loglikelihood: -476819.796955
+iteration time: 453.907955885 sec
+Finished the 22-th iteration on the clusters
+The likelihood from last iteration is -476819.796955
+24813 rules, 16009 rule types, loglikelihood: -476740.359269
+iteration time: 452.189247131 sec
+Finished the 23-th iteration on the clusters
+The likelihood from last iteration is -476740.359269
+24863 rules, 16035 rule types, loglikelihood: -476861.468455
+iteration time: 447.569088221 sec
+Finished the 24-th iteration on the clusters
+The likelihood from last iteration is -476861.468455
+24746 rules, 15973 rule types, loglikelihood: -476676.482538
+iteration time: 452.670923948 sec
+Finished the 25-th iteration on the clusters
+The likelihood from last iteration is -476676.482538
+24728 rules, 15944 rule types, loglikelihood: -476604.930644
+iteration time: 465.868257999 sec
+Finished the 26-th iteration on the clusters
+The likelihood from last iteration is -476604.930644
+24772 rules, 15987 rule types, loglikelihood: -476620.001833
+iteration time: 447.594234943 sec
+Finished the 27-th iteration on the clusters
+The likelihood from last iteration is -476620.001833
+24708 rules, 15930 rule types, loglikelihood: -476279.247985
+iteration time: 452.828741074 sec
+Finished the 28-th iteration on the clusters
+The likelihood from last iteration is -476279.247985
+24814 rules, 16023 rule types, loglikelihood: -476603.730588
+iteration time: 449.904541969 sec
+Finished the 29-th iteration on the clusters
+The likelihood from last iteration is -476603.730588
+24732 rules, 15938 rule types, loglikelihood: -476221.708735
+iteration time: 458.090378046 sec
+Finished the 30-th iteration on the clusters
+The likelihood from last iteration is -476221.708735
+24740 rules, 15969 rule types, loglikelihood: -476134.350401
+iteration time: 469.242821932 sec
+Finished the 31-th iteration on the clusters
+The likelihood from last iteration is -476134.350401
+24776 rules, 15967 rule types, loglikelihood: -476006.985264
+iteration time: 456.112653017 sec
+Finished the 32-th iteration on the clusters
+The likelihood from last iteration is -476006.985264
+24834 rules, 16022 rule types, loglikelihood: -476057.409796
+iteration time: 451.653389931 sec
+Finished the 33-th iteration on the clusters
+The likelihood from last iteration is -476057.409796
+24839 rules, 15988 rule types, loglikelihood: -475860.253134
+iteration time: 450.783375978 sec
+Finished the 34-th iteration on the clusters
+The likelihood from last iteration is -475860.253134
+24736 rules, 15957 rule types, loglikelihood: -475975.534086
+iteration time: 458.784832001 sec
+Finished the 35-th iteration on the clusters
+The likelihood from last iteration is -475975.534086
+24729 rules, 15967 rule types, loglikelihood: -475876.985161
+iteration time: 467.563750029 sec
+Finished the 36-th iteration on the clusters
+The likelihood from last iteration is -475876.985161
+24819 rules, 15987 rule types, loglikelihood: -475782.890287
+iteration time: 454.210013866 sec
+Finished the 37-th iteration on the clusters
+The likelihood from last iteration is -475782.890287
+24822 rules, 15966 rule types, loglikelihood: -475800.041974
+iteration time: 457.373633862 sec
+Finished the 38-th iteration on the clusters
+The likelihood from last iteration is -475800.041974
+24782 rules, 15993 rule types, loglikelihood: -475732.316659
+iteration time: 452.255792141 sec
+Finished the 39-th iteration on the clusters
+The likelihood from last iteration is -475732.316659
+24773 rules, 15961 rule types, loglikelihood: -475756.014551
+iteration time: 452.257349014 sec
+Finished the 40-th iteration on the clusters
+The likelihood from last iteration is -475756.014551
+24801 rules, 15983 rule types, loglikelihood: -475648.220127
+iteration time: 473.525558949 sec
+Finished the 41-th iteration on the clusters
+The likelihood from last iteration is -475648.220127
+24767 rules, 15941 rule types, loglikelihood: -475701.833515
+iteration time: 452.401998043 sec
+Finished the 42-th iteration on the clusters
+The likelihood from last iteration is -475701.833515
+24803 rules, 15996 rule types, loglikelihood: -475721.838664
+iteration time: 458.38620615 sec
+Finished the 43-th iteration on the clusters
+The likelihood from last iteration is -475721.838664
+24813 rules, 16015 rule types, loglikelihood: -475672.931624
+iteration time: 451.172945976 sec
+Finished the 44-th iteration on the clusters
+The likelihood from last iteration is -475672.931624
+24737 rules, 15939 rule types, loglikelihood: -475454.820623
+iteration time: 450.12561202 sec
+Finished the 45-th iteration on the clusters
+The likelihood from last iteration is -475454.820623
+24799 rules, 16012 rule types, loglikelihood: -475560.96817
+iteration time: 471.94965291 sec
+Finished the 46-th iteration on the clusters
+The likelihood from last iteration is -475560.96817
+24740 rules, 15999 rule types, loglikelihood: -475748.318709
+iteration time: 454.893284082 sec
+Finished the 47-th iteration on the clusters
+The likelihood from last iteration is -475748.318709
+24731 rules, 15985 rule types, loglikelihood: -475570.697172
+iteration time: 456.387691021 sec
+Finished the 48-th iteration on the clusters
+The likelihood from last iteration is -475570.697172
+24818 rules, 16003 rule types, loglikelihood: -475608.037691
+iteration time: 459.823462009 sec
+Finished the 49-th iteration on the clusters
+The likelihood from last iteration is -475608.037691
+24709 rules, 15922 rule types, loglikelihood: -475464.889829
+iteration time: 453.377758026 sec
+Finished the 50-th iteration on the clusters
+The likelihood from last iteration is -475464.889829
+24748 rules, 15918 rule types, loglikelihood: -475273.762549
+iteration time: 465.127593994 sec
+Finished the 51-th iteration on the clusters
+The likelihood from last iteration is -475273.762549
+24751 rules, 15914 rule types, loglikelihood: -475269.879614
+iteration time: 452.419249058 sec
+Finished the 52-th iteration on the clusters
+The likelihood from last iteration is -475269.879614
+24781 rules, 15912 rule types, loglikelihood: -475110.941722
+iteration time: 449.431396008 sec
+Finished the 53-th iteration on the clusters
+The likelihood from last iteration is -475110.941722
+24742 rules, 15950 rule types, loglikelihood: -475272.810253
+iteration time: 449.673091888 sec
+Finished the 54-th iteration on the clusters
+The likelihood from last iteration is -475272.810253
+24764 rules, 15967 rule types, loglikelihood: -475235.553352
+iteration time: 456.499165058 sec
+Finished the 55-th iteration on the clusters
+The likelihood from last iteration is -475235.553352
+24746 rules, 15948 rule types, loglikelihood: -475247.266869
+iteration time: 465.811375141 sec
+Finished the 56-th iteration on the clusters
+The likelihood from last iteration is -475247.266869
+24770 rules, 15944 rule types, loglikelihood: -475126.581116
+iteration time: 452.213650942 sec
+Finished the 57-th iteration on the clusters
+The likelihood from last iteration is -475126.581116
+24787 rules, 15934 rule types, loglikelihood: -474925.696711
+iteration time: 449.098047972 sec
+Finished the 58-th iteration on the clusters
+The likelihood from last iteration is -474925.696711
+24701 rules, 15885 rule types, loglikelihood: -474940.715809
+iteration time: 448.194877863 sec
+Finished the 59-th iteration on the clusters
+The likelihood from last iteration is -474940.715809
+24739 rules, 15878 rule types, loglikelihood: -474579.484064
+iteration time: 454.45925498 sec
+Finished the 60-th iteration on the clusters
+The likelihood from last iteration is -474579.484064
+24753 rules, 15933 rule types, loglikelihood: -474929.901946
+iteration time: 462.954571009 sec
+Finished the 61-th iteration on the clusters
+The likelihood from last iteration is -474929.901946
+24668 rules, 15856 rule types, loglikelihood: -474779.421828
+iteration time: 447.310100079 sec
+Finished the 62-th iteration on the clusters
+The likelihood from last iteration is -474779.421828
+24789 rules, 15944 rule types, loglikelihood: -474970.507426
+iteration time: 451.002980947 sec
+Finished the 63-th iteration on the clusters
+The likelihood from last iteration is -474970.507426
+24740 rules, 15900 rule types, loglikelihood: -474860.877074
+iteration time: 448.52697897 sec
+Finished the 64-th iteration on the clusters
+The likelihood from last iteration is -474860.877074
+24819 rules, 15998 rule types, loglikelihood: -474848.720556
+iteration time: 447.035920143 sec
+Finished the 65-th iteration on the clusters
+The likelihood from last iteration is -474848.720556
+24648 rules, 15872 rule types, loglikelihood: -474602.334742
+iteration time: 468.829271078 sec
+Finished the 66-th iteration on the clusters
+The likelihood from last iteration is -474602.334742
+24686 rules, 15894 rule types, loglikelihood: -474655.22919
+iteration time: 447.185461998 sec
+Finished the 67-th iteration on the clusters
+The likelihood from last iteration is -474655.22919
+24845 rules, 15969 rule types, loglikelihood: -474786.516931
+iteration time: 445.97242403 sec
+Finished the 68-th iteration on the clusters
+The likelihood from last iteration is -474786.516931
+24824 rules, 15954 rule types, loglikelihood: -474679.170209
+iteration time: 449.654627085 sec
+Finished the 69-th iteration on the clusters
+The likelihood from last iteration is -474679.170209
+24775 rules, 15886 rule types, loglikelihood: -474478.934601
+iteration time: 448.103543043 sec
+Finished the 70-th iteration on the clusters
+The likelihood from last iteration is -474478.934601
+24860 rules, 16001 rule types, loglikelihood: -474869.344998
+iteration time: 461.730854988 sec
+Finished the 71-th iteration on the clusters
+The likelihood from last iteration is -474869.344998
+24799 rules, 15931 rule types, loglikelihood: -474631.081123
+iteration time: 447.334323883 sec
+Finished the 72-th iteration on the clusters
+The likelihood from last iteration is -474631.081123
+24788 rules, 15934 rule types, loglikelihood: -474647.486366
+iteration time: 441.562656879 sec
+Finished the 73-th iteration on the clusters
+The likelihood from last iteration is -474647.486366
+24714 rules, 15862 rule types, loglikelihood: -474586.281274
+iteration time: 445.166496038 sec
+Finished the 74-th iteration on the clusters
+The likelihood from last iteration is -474586.281274
+24821 rules, 15950 rule types, loglikelihood: -474591.583229
+iteration time: 448.832285881 sec
+Finished the 75-th iteration on the clusters
+The likelihood from last iteration is -474591.583229
+24751 rules, 15889 rule types, loglikelihood: -474422.395907
+iteration time: 458.944297075 sec
+Finished the 76-th iteration on the clusters
+The likelihood from last iteration is -474422.395907
+24789 rules, 15930 rule types, loglikelihood: -474456.219597
+iteration time: 442.780980825 sec
+Finished the 77-th iteration on the clusters
+The likelihood from last iteration is -474456.219597
+24757 rules, 15913 rule types, loglikelihood: -474478.251077
+iteration time: 451.874716997 sec
+Finished the 78-th iteration on the clusters
+The likelihood from last iteration is -474478.251077
+24838 rules, 16007 rule types, loglikelihood: -474537.368482
+iteration time: 446.491360903 sec
+Finished the 79-th iteration on the clusters
+The likelihood from last iteration is -474537.368482
+24744 rules, 15942 rule types, loglikelihood: -474504.313166
+iteration time: 446.577124834 sec
+Finished the 80-th iteration on the clusters
+The likelihood from last iteration is -474504.313166
+24693 rules, 15867 rule types, loglikelihood: -474339.044501
+iteration time: 461.192807913 sec
+Finished the 81-th iteration on the clusters
+The likelihood from last iteration is -474339.044501
+24763 rules, 15986 rule types, loglikelihood: -474620.44802
+iteration time: 448.748950005 sec
+Finished the 82-th iteration on the clusters
+The likelihood from last iteration is -474620.44802
+24694 rules, 15934 rule types, loglikelihood: -474255.261933
+iteration time: 447.232970953 sec
+Finished the 83-th iteration on the clusters
+The likelihood from last iteration is -474255.261933
+24678 rules, 15879 rule types, loglikelihood: -474318.242264
+iteration time: 454.841549158 sec
+Finished the 84-th iteration on the clusters
+The likelihood from last iteration is -474318.242264
+24677 rules, 15909 rule types, loglikelihood: -474400.552371
+iteration time: 447.193730116 sec
+Finished the 85-th iteration on the clusters
+The likelihood from last iteration is -474400.552371
+24685 rules, 15925 rule types, loglikelihood: -474492.39225
+iteration time: 467.467150927 sec
+Finished the 86-th iteration on the clusters
+The likelihood from last iteration is -474492.39225
+24691 rules, 15932 rule types, loglikelihood: -474371.261406
+iteration time: 442.117717028 sec
+Finished the 87-th iteration on the clusters
+The likelihood from last iteration is -474371.261406
+24692 rules, 15933 rule types, loglikelihood: -474514.941739
+iteration time: 451.135074139 sec
+Finished the 88-th iteration on the clusters
+The likelihood from last iteration is -474514.941739
+24663 rules, 15917 rule types, loglikelihood: -474390.63109
+iteration time: 451.355969906 sec
+Finished the 89-th iteration on the clusters
+The likelihood from last iteration is -474390.63109
+24719 rules, 15952 rule types, loglikelihood: -474298.069132
+iteration time: 451.303945065 sec
+Finished the 90-th iteration on the clusters
+The likelihood from last iteration is -474298.069132
+24696 rules, 15893 rule types, loglikelihood: -474209.231001
+iteration time: 459.659253836 sec
+Finished the 91-th iteration on the clusters
+The likelihood from last iteration is -474209.231001
+24777 rules, 15967 rule types, loglikelihood: -474139.181136
+iteration time: 444.887853861 sec
+Finished the 92-th iteration on the clusters
+The likelihood from last iteration is -474139.181136
+24690 rules, 15903 rule types, loglikelihood: -474138.014404
+iteration time: 448.918737888 sec
+Finished the 93-th iteration on the clusters
+The likelihood from last iteration is -474138.014404
+24786 rules, 15971 rule types, loglikelihood: -474121.242884
+iteration time: 443.322844028 sec
+Finished the 94-th iteration on the clusters
+The likelihood from last iteration is -474121.242884
+24749 rules, 15923 rule types, loglikelihood: -474198.399351
+iteration time: 444.666069984 sec
+Finished the 95-th iteration on the clusters
+The likelihood from last iteration is -474198.399351
+24691 rules, 15879 rule types, loglikelihood: -474113.663458
+iteration time: 455.015058994 sec
+Finished the 96-th iteration on the clusters
+The likelihood from last iteration is -474113.663458
+24641 rules, 15876 rule types, loglikelihood: -474166.140311
+iteration time: 446.5480721 sec
+Finished the 97-th iteration on the clusters
+The likelihood from last iteration is -474166.140311
+24721 rules, 15916 rule types, loglikelihood: -474160.219624
+iteration time: 449.594117165 sec
+Finished the 98-th iteration on the clusters
+The likelihood from last iteration is -474160.219624
+24718 rules, 15945 rule types, loglikelihood: -474258.554536
+iteration time: 438.822918892 sec
+Finished the 99-th iteration on the clusters
+The likelihood from last iteration is -474258.554536
+24731 rules, 15928 rule types, loglikelihood: -474170.230208
+iteration time: 450.2450881 sec
+Finished the 100-th iteration on the clusters
+The likelihood from last iteration is -474170.230208
+24742 rules, 15937 rule types, loglikelihood: -474269.943464
+iteration time: 461.5701859 sec
+Finished the 101-th iteration on the clusters
+The likelihood from last iteration is -474269.943464
+24744 rules, 15946 rule types, loglikelihood: -474216.977057
+iteration time: 449.959563017 sec
+Finished the 102-th iteration on the clusters
+The likelihood from last iteration is -474216.977057
+24774 rules, 15954 rule types, loglikelihood: -474079.77265
+iteration time: 448.292523146 sec
+Finished the 103-th iteration on the clusters
+The likelihood from last iteration is -474079.77265
+24807 rules, 15977 rule types, loglikelihood: -473949.844967
+iteration time: 446.59422183 sec
+Finished the 104-th iteration on the clusters
+The likelihood from last iteration is -473949.844967
+24712 rules, 15921 rule types, loglikelihood: -474038.287376
+iteration time: 448.823243141 sec
+Finished the 105-th iteration on the clusters
+The likelihood from last iteration is -474038.287376
+24728 rules, 15921 rule types, loglikelihood: -474015.585652
+iteration time: 461.127906084 sec
+Finished the 106-th iteration on the clusters
+The likelihood from last iteration is -474015.585652
+24616 rules, 15878 rule types, loglikelihood: -473886.891337
+iteration time: 447.155171156 sec
+Finished the 107-th iteration on the clusters
+The likelihood from last iteration is -473886.891337
+24634 rules, 15941 rule types, loglikelihood: -474253.578263
+iteration time: 438.425207853 sec
+Finished the 108-th iteration on the clusters
+The likelihood from last iteration is -474253.578263
+24782 rules, 16012 rule types, loglikelihood: -474253.227737
+iteration time: 446.243061781 sec
+Finished the 109-th iteration on the clusters
+The likelihood from last iteration is -474253.227737
+24694 rules, 15905 rule types, loglikelihood: -473962.527181
+iteration time: 446.071846962 sec
+Finished the 110-th iteration on the clusters
+The likelihood from last iteration is -473962.527181
+24718 rules, 15920 rule types, loglikelihood: -473904.724615
+iteration time: 458.94376111 sec
+Finished the 111-th iteration on the clusters
+The likelihood from last iteration is -473904.724615
+24721 rules, 15923 rule types, loglikelihood: -474085.089731
+iteration time: 444.159368038 sec
+Finished the 112-th iteration on the clusters
+The likelihood from last iteration is -474085.089731
+24717 rules, 15921 rule types, loglikelihood: -473901.504244
+iteration time: 445.454281092 sec
+Finished the 113-th iteration on the clusters
+The likelihood from last iteration is -473901.504244
+24763 rules, 15970 rule types, loglikelihood: -474065.438621
+iteration time: 438.925652981 sec
+Finished the 114-th iteration on the clusters
+The likelihood from last iteration is -474065.438621
+24693 rules, 15889 rule types, loglikelihood: -473733.025551
+iteration time: 444.248425007 sec
+Finished the 115-th iteration on the clusters
+The likelihood from last iteration is -473733.025551
+24709 rules, 15867 rule types, loglikelihood: -473793.973424
+iteration time: 460.917684078 sec
+Finished the 116-th iteration on the clusters
+The likelihood from last iteration is -473793.973424
+24691 rules, 15923 rule types, loglikelihood: -473850.268124
+iteration time: 439.029946089 sec
+Finished the 117-th iteration on the clusters
+The likelihood from last iteration is -473850.268124
+24743 rules, 15949 rule types, loglikelihood: -473832.522421
+iteration time: 442.949904203 sec
+Finished the 118-th iteration on the clusters
+The likelihood from last iteration is -473832.522421
+24679 rules, 15891 rule types, loglikelihood: -473739.002344
+iteration time: 444.858308077 sec
+Finished the 119-th iteration on the clusters
+The likelihood from last iteration is -473739.002344
+24625 rules, 15888 rule types, loglikelihood: -473613.402022
+iteration time: 448.948168993 sec
+Finished the 120-th iteration on the clusters
+The likelihood from last iteration is -473613.402022
+24658 rules, 15934 rule types, loglikelihood: -473753.345421
+iteration time: 448.998842955 sec
+Finished the 121-th iteration on the clusters
+The likelihood from last iteration is -473753.345421
+24645 rules, 15876 rule types, loglikelihood: -473592.555891
+iteration time: 444.447024107 sec
+Finished the 122-th iteration on the clusters
+The likelihood from last iteration is -473592.555891
+24781 rules, 15944 rule types, loglikelihood: -473919.009347
+iteration time: 449.811125994 sec
+Finished the 123-th iteration on the clusters
+The likelihood from last iteration is -473919.009347
+24685 rules, 15921 rule types, loglikelihood: -473705.821858
+iteration time: 442.370479822 sec
+Finished the 124-th iteration on the clusters
+The likelihood from last iteration is -473705.821858
+24615 rules, 15902 rule types, loglikelihood: -473842.16106
+iteration time: 442.929374933 sec
+Finished the 125-th iteration on the clusters
+The likelihood from last iteration is -473842.16106
+24704 rules, 15951 rule types, loglikelihood: -473852.420258
+iteration time: 460.125265837 sec
+Finished the 126-th iteration on the clusters
+The likelihood from last iteration is -473852.420258
+24708 rules, 15949 rule types, loglikelihood: -473786.667386
+iteration time: 439.670897007 sec
+Finished the 127-th iteration on the clusters
+The likelihood from last iteration is -473786.667386
+24692 rules, 15928 rule types, loglikelihood: -473729.732957
+iteration time: 442.293054104 sec
+Finished the 128-th iteration on the clusters
+The likelihood from last iteration is -473729.732957
+24720 rules, 15951 rule types, loglikelihood: -473911.033068
+iteration time: 454.252134085 sec
+Finished the 129-th iteration on the clusters
+The likelihood from last iteration is -473911.033068
+24639 rules, 15855 rule types, loglikelihood: -473720.329679
+iteration time: 454.700670004 sec
+Finished the 130-th iteration on the clusters
+The likelihood from last iteration is -473720.329679
+24655 rules, 15886 rule types, loglikelihood: -473805.483994
+iteration time: 470.47796011 sec
+Finished the 131-th iteration on the clusters
+The likelihood from last iteration is -473805.483994
+24655 rules, 15934 rule types, loglikelihood: -473873.072095
+iteration time: 467.335679054 sec
+Finished the 132-th iteration on the clusters
+The likelihood from last iteration is -473873.072095
+24726 rules, 15923 rule types, loglikelihood: -473855.688916
+iteration time: 460.968445063 sec
+Finished the 133-th iteration on the clusters
+The likelihood from last iteration is -473855.688916
+24699 rules, 15883 rule types, loglikelihood: -473688.041105
+iteration time: 461.838874102 sec
+Finished the 134-th iteration on the clusters
+The likelihood from last iteration is -473688.041105
+24655 rules, 15869 rule types, loglikelihood: -473734.478745
+iteration time: 466.867003918 sec
+Finished the 135-th iteration on the clusters
+The likelihood from last iteration is -473734.478745
+24716 rules, 15915 rule types, loglikelihood: -473782.346249
+iteration time: 474.538830996 sec
+Finished the 136-th iteration on the clusters
+The likelihood from last iteration is -473782.346249
+24669 rules, 15879 rule types, loglikelihood: -473568.254754
+iteration time: 461.580899 sec
+Finished the 137-th iteration on the clusters
+The likelihood from last iteration is -473568.254754
+24706 rules, 15925 rule types, loglikelihood: -473643.238696
+iteration time: 474.248569012 sec
+Finished the 138-th iteration on the clusters
+The likelihood from last iteration is -473643.238696
+24739 rules, 15984 rule types, loglikelihood: -473895.22294
+iteration time: 463.606554985 sec
+Finished the 139-th iteration on the clusters
+The likelihood from last iteration is -473895.22294
+24690 rules, 15933 rule types, loglikelihood: -473714.646576
+iteration time: 454.712267876 sec
+Finished the 140-th iteration on the clusters
+The likelihood from last iteration is -473714.646576
+24754 rules, 15943 rule types, loglikelihood: -473660.894766
+iteration time: 465.149703979 sec
+Finished the 141-th iteration on the clusters
+The likelihood from last iteration is -473660.894766
+24770 rules, 15931 rule types, loglikelihood: -473525.975486
+iteration time: 442.39508605 sec
+Finished the 142-th iteration on the clusters
+The likelihood from last iteration is -473525.975486
+24660 rules, 15863 rule types, loglikelihood: -473481.772829
+iteration time: 436.00275898 sec
+Finished the 143-th iteration on the clusters
+The likelihood from last iteration is -473481.772829
+24728 rules, 15929 rule types, loglikelihood: -473622.769655
+iteration time: 448.483347893 sec
+Finished the 144-th iteration on the clusters
+The likelihood from last iteration is -473622.769655
+24626 rules, 15891 rule types, loglikelihood: -473483.498983
+iteration time: 440.058175087 sec
+Finished the 145-th iteration on the clusters
+The likelihood from last iteration is -473483.498983
+24647 rules, 15901 rule types, loglikelihood: -473580.355916
+iteration time: 459.542891979 sec
+Finished the 146-th iteration on the clusters
+The likelihood from last iteration is -473580.355916
+24749 rules, 15988 rule types, loglikelihood: -473750.695023
+iteration time: 448.240041971 sec
+Finished the 147-th iteration on the clusters
+The likelihood from last iteration is -473750.695023
+24665 rules, 15861 rule types, loglikelihood: -473489.175535
+iteration time: 445.003669024 sec
+Finished the 148-th iteration on the clusters
+The likelihood from last iteration is -473489.175535
+24657 rules, 15853 rule types, loglikelihood: -473421.928897
+iteration time: 445.089905024 sec
+Finished the 149-th iteration on the clusters
+The likelihood from last iteration is -473421.928897
+24713 rules, 15873 rule types, loglikelihood: -473404.35446
+iteration time: 449.994190216 sec
+Finished the 150-th iteration on the clusters
+The likelihood from last iteration is -473404.35446
+24696 rules, 15916 rule types, loglikelihood: -473462.739761
+iteration time: 457.558432102 sec
+Finished the 151-th iteration on the clusters
+The likelihood from last iteration is -473462.739761
+24676 rules, 15906 rule types, loglikelihood: -473404.500476
+iteration time: 441.31979394 sec
+Finished the 152-th iteration on the clusters
+The likelihood from last iteration is -473404.500476
+24693 rules, 15892 rule types, loglikelihood: -473504.414896
+iteration time: 439.778556108 sec
+Finished the 153-th iteration on the clusters
+The likelihood from last iteration is -473504.414896
+24762 rules, 15947 rule types, loglikelihood: -473611.706089
+iteration time: 442.474902868 sec
+Finished the 154-th iteration on the clusters
+The likelihood from last iteration is -473611.706089
+24626 rules, 15829 rule types, loglikelihood: -473455.992659
+iteration time: 443.372282982 sec
+Finished the 155-th iteration on the clusters
+The likelihood from last iteration is -473455.992659
+24763 rules, 15919 rule types, loglikelihood: -473437.892013
+iteration time: 458.193099976 sec
+Finished the 156-th iteration on the clusters
+The likelihood from last iteration is -473437.892013
+24771 rules, 15917 rule types, loglikelihood: -473390.802243
+iteration time: 448.114773035 sec
+Finished the 157-th iteration on the clusters
+The likelihood from last iteration is -473390.802243
+24748 rules, 15911 rule types, loglikelihood: -473446.423736
+iteration time: 444.563896894 sec
+Finished the 158-th iteration on the clusters
+The likelihood from last iteration is -473446.423736
+24756 rules, 15925 rule types, loglikelihood: -473577.527522
+iteration time: 432.813789845 sec
+Finished the 159-th iteration on the clusters
+The likelihood from last iteration is -473577.527522
+24658 rules, 15868 rule types, loglikelihood: -473569.116758
+iteration time: 431.456629992 sec
+Finished the 160-th iteration on the clusters
+The likelihood from last iteration is -473569.116758
+24701 rules, 15902 rule types, loglikelihood: -473473.238559
+iteration time: 442.260630131 sec

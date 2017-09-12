@@ -1,0 +1,29 @@
+running on cycle3.cs.rochester.edu
+
+Decuction Tree:
+[[GOAL],0,5,(),-37.40 (-37.40+0.00)]
+Deduction: 12.80 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [GOAL] ||| [A0-1,1] ||| (. :A0-1$_0 ) ||| 1.0]
+  [[A0-1],0,5,(),-50.20 (-50.20+0.00)]
+  Deduction: 13.60 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A0-1] ||| [A2-10,1] [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 1.0 1.0 1.0]
+    [[A2-10],0,3,(),-45.40 (-45.40+0.00)]
+    Deduction: -2.80 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A2-10,1] [A2-10,2] ||| (. :A2-10$0 (. :A2-10$1 .*0 )) ||| 1.0 1.0 1.0]
+      [[A2-10],0,1,(),-16.00 (-16.00+0.00)]
+      Deduction: -16.00 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| Establishing ||| (. :ARG1 .*0  :e/establish-01 ) ||| 1.0 1.0 1.0]
+      [[A2-10],1,3,(),-26.60 (-26.60+0.00)]
+      Deduction: -2.80 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-1,1] [A2-00,2] ||| (. :A2-00$1 .*0  :A1-1$0 ) ||| 1.0 1.0 1.0]
+        [[A1-1],1,2,(),-7.80 (-7.80+0.00)]
+        Deduction: -7.80 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| Models ||| (. :m/model ) ||| 1.0 1.0 1.0]
+        [[A2-00],2,3,(),-16.00 (-16.00+0.00)]
+        Deduction: -16.00 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| in ||| (. :mod .*0 ) ||| 1.0 1.0 1.0]
+    [[A1-1],3,5,(),-18.40 (-18.40+0.00)]
+    Deduction: 5.40 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A2-10,2] ||| (. :A2-10$1 (. :A1-1$0 )) ||| 1.0 1.0 1.0]
+      [[A1-1],3,4,(),-7.80 (-7.80+0.00)]
+      Deduction: -7.80 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| Industrial ||| (. :i/industry ) ||| 1.0 1.0 1.0]
+      [[A2-10],4,5,(),-16.00 (-16.00+0.00)]
+      Deduction: -16.00 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| Innovation ||| (. :ARG1 .*0  :i/innovate-01 ) ||| 1.0 1.0 1.0]
+
+(e / establish-01 
+ :ARG1 (m / model 
+	 :mod (i / innovate-01 
+		 :ARG1 (i2 / industry))))
+[time]:                                       0.01

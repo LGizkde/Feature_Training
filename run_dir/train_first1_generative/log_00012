@@ -1,0 +1,25 @@
+running on cycle3.cs.rochester.edu
+
+Decuction Tree:
+[[GOAL],0,5,(),74.22 (74.22+0.00)]
+Deduction: 35.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [GOAL] ||| [A0-1,1] ||| (. :A0-1$_0 ) ||| 1.0]
+  [[A0-1],0,5,(),39.22 (39.22+0.00)]
+  Deduction: 36.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A0-1] ||| [A2-10,1] [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 1.0 1.0 1.0]
+    [[A2-10],0,1,(),-7.20 (-7.20+0.00)]
+    Deduction: -7.20 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| Establishing ||| (. :ARG1 .*0  :e/establish-01 ) ||| 1.0 1.0 1.0]
+    [[A1-1],1,5,(),10.42 (10.42+0.00)]
+    Deduction: -7.58 (FE:-0.65,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] in [A1-1,2] ||| (. :A1-1$1  :domain (. :A1-1$0 )) ||| 4.45434170136 4.69016948976 3.09307130638 100.0 100.0]
+      [[A1-1],1,2,(),-3.60 (-3.60+0.00)]
+      Deduction: -3.60 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| Models ||| (. :m/model ) ||| 1.0 1.0 1.0]
+      [[A1-1],3,5,(),21.60 (21.60+0.00)]
+      Deduction: 32.40 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A2-10,2] ||| (. :A2-10$1 (. :A1-1$0 )) ||| 1.0 1.0 1.0]
+        [[A1-1],3,4,(),-3.60 (-3.60+0.00)]
+        Deduction: -3.60 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| Industrial ||| (. :i/industry ) ||| 1.0 1.0 1.0]
+        [[A2-10],4,5,(),-7.20 (-7.20+0.00)]
+        Deduction: -7.20 (FE:-0.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| Innovation ||| (. :ARG1 .*0  :i/innovate-01 ) ||| 1.0 1.0 1.0]
+
+(e / establish-01 
+ :ARG1 (i / innovate-01 
+	 :ARG1 (i2 / industry) 
+	 :domain (m / model)))
+[time]:                                       0.02

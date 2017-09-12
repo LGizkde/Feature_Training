@@ -1,0 +1,860 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADOPT_module_key_flags	gflags.py	/^def ADOPT_module_key_flags(module, flag_values=FLAGS):$/;"	f
+AddValidator	gflags.py	/^  def AddValidator(self, validator):$/;"	m	class:FlagValues
+Agenda	decode.py	/^class Agenda(object):$/;"	c
+AppendFlagValues	gflags.py	/^  def AppendFlagValues(self, flag_values):$/;"	m	class:FlagValues
+AppendFlagsIntoFile	gflags.py	/^  def AppendFlagsIntoFile(self, filename):$/;"	m	class:FlagValues
+ArgumentParser	gflags.py	/^class ArgumentParser(object):$/;"	c
+ArgumentSerializer	gflags.py	/^class ArgumentSerializer:$/;"	c
+BaseListParser	gflags.py	/^class BaseListParser(ArgumentParser):$/;"	c
+Bin	chart.py	/^class Bin(object):$/;"	c
+BooleanFlag	gflags.py	/^class BooleanFlag(Flag):$/;"	c
+BooleanParser	gflags.py	/^class BooleanParser(ArgumentParser):$/;"	c
+CantOpenFlagFileError	gflags.py	/^class CantOpenFlagFileError(FlagsError):$/;"	c
+Chart	chart.py	/^class Chart(object):$/;"	c
+Chart	decode.py	/^from chart import Chart$/;"	i
+Checker	gflags.py	/^    def Checker(value):$/;"	f	function:_RegisterBoundsValidatorIfNeeded
+ConsensusTrainer	consensus_training.py	/^class ConsensusTrainer(object):$/;"	c
+ConsensusTrainer	decoder.py	/^from consensus_training import ConsensusTrainer, NgramCounter$/;"	i
+ConsensusTrainingCounter	consensus_training.py	/^class ConsensusTrainingCounter(object):$/;"	c
+Convert	gflags.py	/^  def Convert(self, argument):$/;"	m	class:BooleanParser
+Convert	gflags.py	/^  def Convert(self, argument):$/;"	m	class:FloatParser
+Convert	gflags.py	/^  def Convert(self, argument):$/;"	m	class:IntegerParser
+Convert	gflags.py	/^  def Convert(self, argument):$/;"	m	class:NumericParser
+CorpusServer	corpus_server.py	/^class CorpusServer(object):$/;"	c
+CorpusServer	decoder.py	/^from corpus_server import CorpusServer$/;"	i
+Count	feature.py	/^class Count(Feature):$/;"	c
+Cube	cube.py	/^class Cube(object):$/;"	c
+Cube	decode.py	/^from cube import Cube$/;"	i
+Cube	hypergraph.py	/^from cube import Cube$/;"	i
+CutCommonSpacePrefix	gflags.py	/^def CutCommonSpacePrefix(text):$/;"	f
+DECLARE_key_flag	gflags.py	/^def DECLARE_key_flag(flag_name, flag_values=FLAGS):$/;"	f
+DEFINE	gflags.py	/^def DEFINE(parser, name, default, help, flag_values=FLAGS, serializer=None,$/;"	f
+DEFINE_bool	gflags.py	/^DEFINE_bool = DEFINE_boolean$/;"	v
+DEFINE_boolean	gflags.py	/^def DEFINE_boolean(name, default, help, flag_values=FLAGS, **args):$/;"	f
+DEFINE_enum	gflags.py	/^def DEFINE_enum(name, default, enum_values, help, flag_values=FLAGS,$/;"	f
+DEFINE_flag	gflags.py	/^def DEFINE_flag(flag, flag_values=FLAGS):$/;"	f
+DEFINE_float	gflags.py	/^def DEFINE_float(name, default, help, lower_bound=None, upper_bound=None,$/;"	f
+DEFINE_integer	gflags.py	/^def DEFINE_integer(name, default, help, lower_bound=None, upper_bound=None,$/;"	f
+DEFINE_list	gflags.py	/^def DEFINE_list(name, default, help, flag_values=FLAGS, **args):$/;"	f
+DEFINE_multi	gflags.py	/^def DEFINE_multi(parser, serializer, name, default, help, flag_values=FLAGS,$/;"	f
+DEFINE_multi_float	gflags.py	/^def DEFINE_multi_float(name, default, help, lower_bound=None, upper_bound=None,$/;"	f
+DEFINE_multi_int	gflags.py	/^def DEFINE_multi_int(name, default, help, lower_bound=None, upper_bound=None,$/;"	f
+DEFINE_multistring	gflags.py	/^def DEFINE_multistring(name, default, help, flag_values=FLAGS, **args):$/;"	f
+DEFINE_spaceseplist	gflags.py	/^def DEFINE_spaceseplist(name, default, help, flag_values=FLAGS, **args):$/;"	f
+DEFINE_string	gflags.py	/^def DEFINE_string(name, default, help, flag_values=FLAGS, **args):$/;"	f
+Decoder	decode.py	/^class Decoder(object):$/;"	c
+Decoder	translation_job.py	/^from decode import Decoder$/;"	i
+Deduction	consensus_training.py	/^from decode import Deduction$/;"	i
+Deduction	decode.py	/^class Deduction(Edge):$/;"	c
+Deduction	features.py	/^from decode import Deduction, Item$/;"	i
+DerivationException	rule.py	/^from util.exceptions import DerivationException$/;"	i
+Deserializer	consensus_training.py	/^from hypergraph import Node, Deserializer$/;"	i
+Deserializer	hypergraph.py	/^class Deserializer(object):$/;"	c
+DictionaryValidator	gflags_validators.py	/^class DictionaryValidator(Validator):$/;"	c
+DocToHelp	gflags.py	/^def DocToHelp(doc):$/;"	f
+DotChart	decode.py	/^from dot_chart import DotChart$/;"	i
+DotChart	dot_chart.py	/^class DotChart(object):$/;"	c
+DotItem	dot_chart.py	/^class DotItem(object):$/;"	c
+DuplicateFlag	gflags.py	/^class DuplicateFlag(FlagsError):$/;"	c
+DuplicateFlagCannotPropagateNoneToSwig	gflags.py	/^class DuplicateFlagCannotPropagateNoneToSwig(DuplicateFlag):$/;"	c
+DuplicateFlagError	gflags.py	/^class DuplicateFlagError(DuplicateFlag):$/;"	c
+Edge	decode.py	/^from hypergraph import Edge, Node, Hypergraph$/;"	i
+Edge	decoder.py	/^from hypergraph import Edge, Node, Hypergraph$/;"	i
+Edge	hypergraph.py	/^class Edge(object):$/;"	c
+EdgeCount	feature.py	/^class EdgeCount(Feature):$/;"	c
+EnumFlag	gflags.py	/^class EnumFlag(Flag):$/;"	c
+EnumParser	gflags.py	/^class EnumParser(ArgumentParser):$/;"	c
+Error	gflags_validators.py	/^class Error(Exception):$/;"	c
+ExtractFilename	gflags.py	/^  def ExtractFilename(self, flagfile_str):$/;"	m	class:FlagValues
+FE	feature.py	/^class FE(Feature):$/;"	c
+FLAGS	chart.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	common.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	corpus_server.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	decode.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	decoder.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	decoding_flags.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	dot_chart.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	feature.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	features.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	gflags.py	/^FLAGS = FlagValues()$/;"	v
+FLAGS	grammar.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	hypergraph.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	job_logger.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	logger.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	rule.py	/^FLAGS = gflags.FLAGS$/;"	v
+FLAGS	translation_job.py	/^FLAGS = gflags.FLAGS$/;"	v
+Feature	feature.py	/^class Feature(object):$/;"	c
+Features	decoder.py	/^from features import Features$/;"	i
+Features	features.py	/^class Features(object):$/;"	c
+FindModuleDefiningFlag	gflags.py	/^  def FindModuleDefiningFlag(self, flagname, default=None):$/;"	m	class:FlagValues
+FindModuleIdDefiningFlag	gflags.py	/^  def FindModuleIdDefiningFlag(self, flagname, default=None):$/;"	m	class:FlagValues
+Flag	gflags.py	/^class Flag:$/;"	c
+FlagDict	gflags.py	/^  def FlagDict(self):$/;"	m	class:FlagValues
+FlagValues	gflags.py	/^class FlagValues:$/;"	c
+FlagValuesDict	gflags.py	/^  def FlagValuesDict(self):$/;"	m	class:FlagValues
+FlagsByModuleDict	gflags.py	/^  def FlagsByModuleDict(self):$/;"	m	class:FlagValues
+FlagsByModuleIdDict	gflags.py	/^  def FlagsByModuleIdDict(self):$/;"	m	class:FlagValues
+FlagsError	gflags.py	/^class FlagsError(Exception):$/;"	c
+FlagsIntoString	gflags.py	/^  def FlagsIntoString(self):$/;"	m	class:FlagValues
+FloatParser	gflags.py	/^class FloatParser(NumericParser):$/;"	c
+GHKM	feature.py	/^class GHKM(Feature):$/;"	c
+GHKMCount	feature.py	/^class GHKMCount(Feature):$/;"	c
+GHKMGlobal	feature.py	/^class GHKMGlobal(Feature):$/;"	c
+GHKMLHSConditional	feature.py	/^class GHKMLHSConditional(Feature):$/;"	c
+GHKMLexicalCE	feature.py	/^class GHKMLexicalCE(Feature):$/;"	c
+GHKMLexicalEC	feature.py	/^class GHKMLexicalEC(Feature):$/;"	c
+GHKMRHSConditionalCE	feature.py	/^class GHKMRHSConditionalCE(Feature):$/;"	c
+GHKMRHSConditionalEC	feature.py	/^class GHKMRHSConditionalEC(Feature):$/;"	c
+GetFlagsNames	gflags_validators.py	/^  def GetFlagsNames(self):$/;"	m	class:DictionaryValidator
+GetFlagsNames	gflags_validators.py	/^  def GetFlagsNames(self):$/;"	m	class:SimpleValidator
+GetFlagsNames	gflags_validators.py	/^  def GetFlagsNames(self):$/;"	m	class:Validator
+GetHelp	gflags.py	/^  def GetHelp(self, prefix=''):$/;"	m	class:FlagValues
+GetHelpWidth	gflags.py	/^def GetHelpWidth():$/;"	f
+GlueRule	feature.py	/^class GlueRule(Feature):$/;"	c
+GlueRuleCount	feature.py	/^class GlueRuleCount(Feature):$/;"	c
+Grammar	grammar.py	/^class Grammar(object):$/;"	c
+Grammar	translation_job.py	/^from grammar import Grammar$/;"	i
+HelpFlag	gflags.py	/^class HelpFlag(BooleanFlag):$/;"	c
+HelpXMLFlag	gflags.py	/^class HelpXMLFlag(BooleanFlag):$/;"	c
+HelpshortFlag	gflags.py	/^class HelpshortFlag(BooleanFlag):$/;"	c
+Hgraph	rule.py	/^from util.hgraph.hgraph import Hgraph$/;"	i
+HieroCount	feature.py	/^class HieroCount(Feature):$/;"	c
+HieroLHSConditional	feature.py	/^class HieroLHSConditional(Feature):$/;"	c
+HieroLexicalCE	feature.py	/^class HieroLexicalCE(Feature):$/;"	c
+HieroLexicalEC	feature.py	/^class HieroLexicalEC(Feature):$/;"	c
+HieroRHSConditionalCE	feature.py	/^class HieroRHSConditionalCE(Feature):$/;"	c
+HieroRHSConditionalEC	feature.py	/^class HieroRHSConditionalEC(Feature):$/;"	c
+Hypergraph	decode.py	/^from hypergraph import Edge, Node, Hypergraph$/;"	i
+Hypergraph	decoder.py	/^from hypergraph import Edge, Node, Hypergraph$/;"	i
+Hypergraph	hypergraph.py	/^class Hypergraph(object):$/;"	c
+Hypergraph	translation_job.py	/^from hypergraph import Hypergraph, Path$/;"	i
+INF	chart.py	/^from common import INF$/;"	i
+INF	common.py	/^INF = 1e300$/;"	v
+INF	consensus_training.py	/^from common import INF$/;"	i
+INF	features.py	/^from common import INF$/;"	i
+INF	hypergraph.py	/^from common import INF$/;"	i
+INF	references.py	/^from common import count_lines, INF$/;"	i
+INSIDE	hypergraph.py	/^INSIDE = (lambda x,y: x + y,$/;"	v
+ITG	feature.py	/^class ITG(Feature):$/;"	c
+IllegalFlagValue	gflags.py	/^class IllegalFlagValue(FlagsError):$/;"	c
+IntegerParser	gflags.py	/^class IntegerParser(NumericParser):$/;"	c
+IsGnuGetOpt	gflags.py	/^  def IsGnuGetOpt(self):$/;"	m	class:FlagValues
+IsOutsideBounds	gflags.py	/^  def IsOutsideBounds(self, val):$/;"	m	class:NumericParser
+Item	decode.py	/^class Item(Node):$/;"	c
+Item	features.py	/^from decode import Deduction, Item$/;"	i
+JobLogger	corpus_server.py	/^from job_logger import JobLogger$/;"	i
+JobLogger	decoder.py	/^from job_logger import JobLogger$/;"	i
+JobLogger	job_logger.py	/^class JobLogger(object):$/;"	c
+KeyFlagsByModuleDict	gflags.py	/^  def KeyFlagsByModuleDict(self):$/;"	m	class:FlagValues
+LM	feature.py	/^class LM(Feature):$/;"	c
+LOGPROB	hypergraph.py	/^LOGPROB = (logsum,$/;"	v
+LOGZERO	hypergraph.py	/^from logprob import logsum, logprod, LOGZERO$/;"	i
+LOGZERO	logprob.py	/^LOGZERO = -100$/;"	v
+LanguageModel	feature.py	/^            from python_lm import LanguageModel$/;"	i
+LanguageModel	feature.py	/^            from swig_lm import LanguageModel$/;"	i
+LazyListMerger	dot_chart.py	/^from lazy_list_merger import LazyListMerger$/;"	i
+LazyListMerger	lazy_list_merger.py	/^class LazyListMerger(object):$/;"	c
+LengthPenalty	feature.py	/^class LengthPenalty(Feature):$/;"	c
+LexicalITG	decode.py	/^from grammar import LexicalITG$/;"	i
+LexicalITG	decoder.py	/^from grammar import LexicalITG, SCFG$/;"	i
+LexicalITG	grammar.py	/^class LexicalITG(object):$/;"	c
+ListParser	gflags.py	/^class ListParser(BaseListParser):$/;"	c
+ListSerializer	gflags.py	/^class ListSerializer(ArgumentSerializer):$/;"	c
+MainModuleHelp	gflags.py	/^  def MainModuleHelp(self):$/;"	m	class:FlagValues
+MarkFlagAsRequired	gflags.py	/^def MarkFlagAsRequired(flag_name, flag_values=FLAGS):$/;"	f
+Mem	mymonitor.py	/^class Mem(object):$/;"	c
+MemZero	mymonitor.py	/^MemZero = Mem(0.0)$/;"	v
+MockLM	feature.py	/^class MockLM(Feature):$/;"	c
+ModuleHelp	gflags.py	/^  def ModuleHelp(self, module):$/;"	m	class:FlagValues
+Monitor	decoder.py	/^from monitor import Monitor$/;"	i
+Monitor	monitor.py	/^class Monitor(object):$/;"	c
+MultiFlag	gflags.py	/^class MultiFlag(Flag):$/;"	c
+NTMismatch	feature.py	/^class NTMismatch(Feature):$/;"	c
+NTPunish	feature.py	/^class NTPunish(Feature):$/;"	c
+NgramCounter	consensus_training.py	/^class NgramCounter:$/;"	c
+NgramCounter	decoder.py	/^from consensus_training import ConsensusTrainer, NgramCounter$/;"	i
+NgramCounter	translation_job.py	/^from consensus_training import NgramCounter$/;"	i
+NgramEnumerator	consensus_training.py	/^from ngram import NgramEnumerator$/;"	i
+NgramEnumerator	feature.py	/^from ngram import NgramEnumerator$/;"	i
+NgramEnumerator	ngram.py	/^class NgramEnumerator:$/;"	c
+NgramEnumerator	references.py	/^from ngram import NgramEnumerator$/;"	i
+Node	consensus_training.py	/^from hypergraph import Node, Deserializer$/;"	i
+Node	decode.py	/^from hypergraph import Edge, Node, Hypergraph$/;"	i
+Node	decoder.py	/^from hypergraph import Edge, Node, Hypergraph$/;"	i
+Node	hypergraph.py	/^class Node(object):$/;"	c
+NumTerminals	feature.py	/^class NumTerminals(Feature):$/;"	c
+NumericParser	gflags.py	/^class NumericParser(ArgumentParser):$/;"	c
+Parse	gflags.py	/^  def Parse(self, arg):$/;"	m	class:HelpFlag
+Parse	gflags.py	/^  def Parse(self, arg):$/;"	m	class:HelpXMLFlag
+Parse	gflags.py	/^  def Parse(self, arg):$/;"	m	class:HelpshortFlag
+Parse	gflags.py	/^  def Parse(self, argument):$/;"	m	class:ArgumentParser
+Parse	gflags.py	/^  def Parse(self, argument):$/;"	m	class:BaseListParser
+Parse	gflags.py	/^  def Parse(self, argument):$/;"	m	class:BooleanParser
+Parse	gflags.py	/^  def Parse(self, argument):$/;"	m	class:EnumParser
+Parse	gflags.py	/^  def Parse(self, argument):$/;"	m	class:Flag
+Parse	gflags.py	/^  def Parse(self, argument):$/;"	m	class:NumericParser
+Parse	gflags.py	/^  def Parse(self, arguments):$/;"	m	class:MultiFlag
+Path	hypergraph.py	/^class Path(object):$/;"	c
+Path	translation_job.py	/^from hypergraph import Hypergraph, Path$/;"	i
+PercentCounter	grammar.py	/^from percent_counter import PercentCounter$/;"	i
+PercentCounter	percent_counter.py	/^class PercentCounter(object):$/;"	c
+PhraseCount	feature.py	/^class PhraseCount(Feature):$/;"	c
+PhraseEF	feature.py	/^class PhraseEF(Feature):$/;"	c
+PhraseFE	feature.py	/^class PhraseFE(Feature):$/;"	c
+PhraseLexEF	feature.py	/^class PhraseLexEF(Feature):$/;"	c
+PhraseLexFE	feature.py	/^class PhraseLexFE(Feature):$/;"	c
+PrintFlagsWithValues	gflags_validators.py	/^  def PrintFlagsWithValues(self, flag_values):$/;"	m	class:DictionaryValidator
+PrintFlagsWithValues	gflags_validators.py	/^  def PrintFlagsWithValues(self, flag_values):$/;"	m	class:SimpleValidator
+PrintFlagsWithValues	gflags_validators.py	/^  def PrintFlagsWithValues(self, flag_values):$/;"	m	class:Validator
+ReadFlagsFromFiles	gflags.py	/^  def ReadFlagsFromFiles(self, argv, force_gnu=True):$/;"	m	class:FlagValues
+RefCounter	references.py	/^class RefCounter(dict):$/;"	c
+RefCounter	translation_job.py	/^        self.ref = None  # reference, class RefCounter$/;"	c	function:TranslationJob.__init__
+References	decoder.py	/^from references import References$/;"	i
+References	references.py	/^class References(object):$/;"	c
+RegisterValidator	gflags.py	/^def RegisterValidator(flag_name,$/;"	f
+RegisteredFlags	gflags.py	/^  def RegisteredFlags(self):$/;"	m	class:FlagValues
+RemoveFlagValues	gflags.py	/^  def RemoveFlagValues(self, flag_values):$/;"	m	class:FlagValues
+Reset	gflags.py	/^  def Reset(self):$/;"	m	class:FlagValues
+Rule	decode.py	/^from rule import Rule, is_virtual, nocat$/;"	i
+Rule	decoder.py	/^from rule import Rule$/;"	i
+Rule	grammar.py	/^from rule import Rule, isvar, nocat$/;"	i
+Rule	rule.py	/^class Rule(object):$/;"	c
+Rule	translation_job.py	/^from rule import Rule$/;"	i
+RuleBin	grammar.py	/^class RuleBin(object):$/;"	c
+RuleType	feature.py	/^class RuleType(Feature):$/;"	c
+SCFG	decoder.py	/^from grammar import LexicalITG, SCFG$/;"	i
+SCFG	grammar.py	/^class SCFG(Grammar):$/;"	c
+SHORTEST_PATH	hypergraph.py	/^SHORTEST_PATH = (lambda x,y: min([x,y]),$/;"	v
+Serialize	gflags.py	/^  def Serialize(self):$/;"	m	class:Flag
+Serialize	gflags.py	/^  def Serialize(self):$/;"	m	class:MultiFlag
+Serialize	gflags.py	/^  def Serialize(self, value):$/;"	m	class:ArgumentSerializer
+Serialize	gflags.py	/^  def Serialize(self, value):$/;"	m	class:ListSerializer
+SetDefault	gflags.py	/^  def SetDefault(self, name, value):$/;"	m	class:FlagValues
+SetDefault	gflags.py	/^  def SetDefault(self, value):$/;"	m	class:Flag
+ShortestUniquePrefixes	gflags.py	/^  def ShortestUniquePrefixes(self, fl):$/;"	m	class:FlagValues
+SimpleBin	chart.py	/^class SimpleBin(object):$/;"	c
+SimpleValidator	gflags_validators.py	/^class SimpleValidator(Validator):$/;"	c
+TextWrap	gflags.py	/^def TextWrap(text, length=None, indent='', firstline_indent=None, tabs='    '):$/;"	f
+TranslationJob	decoder.py	/^from translation_job import TranslationJob$/;"	i
+TranslationJob	translation_job.py	/^class TranslationJob(object):$/;"	c
+TrieNode	grammar.py	/^class TrieNode(dict):$/;"	c
+Type	gflags.py	/^  def Type(self):$/;"	m	class:ArgumentParser
+Type	gflags.py	/^  def Type(self):$/;"	m	class:BaseListParser
+Type	gflags.py	/^  def Type(self):$/;"	m	class:BooleanParser
+Type	gflags.py	/^  def Type(self):$/;"	m	class:EnumParser
+Type	gflags.py	/^  def Type(self):$/;"	m	class:Flag
+Type	gflags.py	/^  def Type(self):$/;"	m	class:FloatParser
+Type	gflags.py	/^  def Type(self):$/;"	m	class:IntegerParser
+Type	gflags.py	/^  def Type(self):$/;"	m	class:MultiFlag
+UnknownWord	feature.py	/^class UnknownWord(Feature):$/;"	c
+Unparse	gflags.py	/^  def Unparse(self):$/;"	m	class:Flag
+UnrecognizedFlag	gflags.py	/^class UnrecognizedFlag(FlagsError):$/;"	c
+UnrecognizedFlagError	gflags.py	/^class UnrecognizedFlagError(UnrecognizedFlag):$/;"	c
+UseGnuGetOpt	gflags.py	/^  def UseGnuGetOpt(self, use_gnu_getopt=True):$/;"	m	class:FlagValues
+Validator	gflags_validators.py	/^class Validator(object):$/;"	c
+Verify	gflags_validators.py	/^  def Verify(self, flag_values):$/;"	m	class:Validator
+VmB	mymonitor.py	/^def VmB(secret_file, VmKey):$/;"	f
+WhitespaceSeparatedListParser	gflags.py	/^class WhitespaceSeparatedListParser(BaseListParser):$/;"	c
+WriteCustomInfoInXMLFormat	gflags.py	/^  def WriteCustomInfoInXMLFormat(self, outfile, indent):$/;"	m	class:ArgumentParser
+WriteCustomInfoInXMLFormat	gflags.py	/^  def WriteCustomInfoInXMLFormat(self, outfile, indent):$/;"	m	class:ListParser
+WriteCustomInfoInXMLFormat	gflags.py	/^  def WriteCustomInfoInXMLFormat(self, outfile, indent):$/;"	m	class:NumericParser
+WriteCustomInfoInXMLFormat	gflags.py	/^  def WriteCustomInfoInXMLFormat(self, outfile, indent):$/;"	m	class:WhitespaceSeparatedListParser
+WriteHelpInXMLFormat	gflags.py	/^  def WriteHelpInXMLFormat(self, outfile=None):$/;"	m	class:FlagValues
+WriteInfoInXMLFormat	gflags.py	/^  def WriteInfoInXMLFormat(self, outfile, module_name, is_key=False, indent=''):$/;"	m	class:Flag
+ZERO	common.py	/^ZERO = 1e-100$/;"	v
+_ArgumentParserCache	gflags.py	/^class _ArgumentParserCache(type):$/;"	c
+_AssertAllValidators	gflags.py	/^  def _AssertAllValidators(self):$/;"	m	class:FlagValues
+_AssertValidators	gflags.py	/^  def _AssertValidators(self, validators):$/;"	m	class:FlagValues
+_FlagIsRegistered	gflags.py	/^  def _FlagIsRegistered(self, flag_obj):$/;"	m	class:FlagValues
+_GetCallingModule	gflags.py	/^def _GetCallingModule():$/;"	f
+_GetCallingModuleObjectAndName	gflags.py	/^def _GetCallingModuleObjectAndName():$/;"	f
+_GetFlagsDefinedByModule	gflags.py	/^  def _GetFlagsDefinedByModule(self, module):$/;"	m	class:FlagValues
+_GetInputToCheckerFunction	gflags_validators.py	/^  def _GetInputToCheckerFunction(self, flag_values):$/;"	m	class:DictionaryValidator
+_GetInputToCheckerFunction	gflags_validators.py	/^  def _GetInputToCheckerFunction(self, flag_values):$/;"	m	class:SimpleValidator
+_GetInputToCheckerFunction	gflags_validators.py	/^  def _GetInputToCheckerFunction(self, flag_values):$/;"	m	class:Validator
+_GetKeyFlagsForModule	gflags.py	/^  def _GetKeyFlagsForModule(self, module):$/;"	m	class:FlagValues
+_GetMainModule	gflags.py	/^def _GetMainModule():$/;"	f
+_GetModuleObjectAndName	gflags.py	/^def _GetModuleObjectAndName(globals_dict):$/;"	f
+_GetThisModuleObjectAndName	gflags.py	/^def _GetThisModuleObjectAndName():$/;"	f
+_InternalDeclareKeyFlags	gflags.py	/^def _InternalDeclareKeyFlags(flag_names,$/;"	f
+_MakeXMLSafe	gflags.py	/^def _MakeXMLSafe(s):$/;"	f
+_RUNNING_PYCHECKER	gflags.py	/^_RUNNING_PYCHECKER = 'pychecker.python' in sys.modules$/;"	v
+_RegisterBoundsValidatorIfNeeded	gflags.py	/^def _RegisterBoundsValidatorIfNeeded(parser, name, flag_values):$/;"	f
+_RegisterFlagByModule	gflags.py	/^  def _RegisterFlagByModule(self, module_name, flag):$/;"	m	class:FlagValues
+_RegisterFlagByModuleId	gflags.py	/^  def _RegisterFlagByModuleId(self, module_id, flag):$/;"	m	class:FlagValues
+_RegisterKeyFlagForModule	gflags.py	/^  def _RegisterKeyFlagForModule(self, module_name, flag):$/;"	m	class:FlagValues
+_SPECIAL_FLAGS	gflags.py	/^_SPECIAL_FLAGS = FlagValues()$/;"	v
+_StrOrUnicode	gflags.py	/^def _StrOrUnicode(value):$/;"	f
+_VmB	monitor.py	/^def _VmB(VmKey):$/;"	f
+_WriteCustomInfoInXMLFormat	gflags.py	/^  def _WriteCustomInfoInXMLFormat(self, outfile, indent):$/;"	m	class:EnumFlag
+_WriteCustomInfoInXMLFormat	gflags.py	/^  def _WriteCustomInfoInXMLFormat(self, outfile, indent):$/;"	m	class:Flag
+_WriteSimpleXMLElement	gflags.py	/^def _WriteSimpleXMLElement(outfile, name, value, indent):$/;"	f
+__GetFlagFileLines	gflags.py	/^  def __GetFlagFileLines(self, filename, parsed_file_list):$/;"	m	class:FlagValues	file:
+__GetParsedValueAsString	gflags.py	/^  def __GetParsedValueAsString(self, value):$/;"	m	class:Flag	file:
+__IsFlagFileDirective	gflags.py	/^  def __IsFlagFileDirective(self, flag_string):$/;"	m	class:FlagValues	file:
+__RemoveFlagFromDictByModule	gflags.py	/^  def __RemoveFlagFromDictByModule(self, flags_by_module_dict, flag_obj):$/;"	m	class:FlagValues	file:
+__RenderFlagList	gflags.py	/^  def __RenderFlagList(self, flaglist, output_lines, prefix="  "):$/;"	m	class:FlagValues	file:
+__RenderModuleFlags	gflags.py	/^  def __RenderModuleFlags(self, module, flags, output_lines, prefix=""):$/;"	m	class:FlagValues	file:
+__RenderOurModuleFlags	gflags.py	/^  def __RenderOurModuleFlags(self, module, output_lines, prefix=""):$/;"	m	class:FlagValues	file:
+__RenderOurModuleKeyFlags	gflags.py	/^  def __RenderOurModuleKeyFlags(self, module, output_lines, prefix=""):$/;"	m	class:FlagValues	file:
+__author__	gflags_validators.py	/^__author__ = 'olexiy@google.com (Olexiy Oryeshko)'$/;"	v
+__call__	gflags.py	/^  def __call__(mcs, *args, **kwargs):$/;"	m	class:_ArgumentParserCache	file:
+__call__	gflags.py	/^  def __call__(self, argv):$/;"	m	class:FlagValues	file:
+__cmp__	mymonitor.py	/^    def __cmp__(self, other):$/;"	m	class:Mem	file:
+__contains__	gflags.py	/^  def __contains__(self, name):$/;"	m	class:FlagValues	file:
+__delattr__	gflags.py	/^  def __delattr__(self, flag_name):$/;"	m	class:FlagValues	file:
+__eq__	decode.py	/^    def __eq__(self, other):$/;"	m	class:Item	file:
+__eq__	dot_chart.py	/^    def __eq__(self, other):$/;"	m	class:DotItem	file:
+__eq__	gflags.py	/^  def __eq__(self, other):$/;"	m	class:Flag	file:
+__eq__	rule.py	/^    def __eq__(self, other):$/;"	m	class:Rule	file:
+__getattr__	gflags.py	/^  def __getattr__(self, name):$/;"	m	class:FlagValues	file:
+__getitem__	chart.py	/^    def __getitem__(self, i):$/;"	m	class:Bin	file:
+__getitem__	chart.py	/^    def __getitem__(self, i):$/;"	m	class:SimpleBin	file:
+__getitem__	cube.py	/^    def __getitem__(self, n):$/;"	m	class:Cube	file:
+__getitem__	gflags.py	/^  def __getitem__(self, name):$/;"	m	class:FlagValues	file:
+__getitem__	grammar.py	/^    def __getitem__(self, i):$/;"	m	class:RuleBin	file:
+__getitem__	lazy_list_merger.py	/^    def __getitem__(self, n):$/;"	m	class:LazyListMerger	file:
+__getitem__	references.py	/^    def __getitem__(self, ngram):$/;"	m	class:RefCounter	file:
+__gt__	mymonitor.py	/^    def __gt__(self, other):$/;"	m	class:Mem	file:
+__hash__	decode.py	/^    def __hash__(self):$/;"	m	class:Item	file:
+__hash__	dot_chart.py	/^    def __hash__(self):$/;"	m	class:DotItem	file:
+__hash__	gflags.py	/^  def __hash__(self):$/;"	m	class:Flag	file:
+__hash__	rule.py	/^    def __hash__(self):$/;"	m	class:Rule	file:
+__init__	chart.py	/^    def __init__(self, K, chart):  # K is ignored$/;"	m	class:SimpleBin
+__init__	chart.py	/^    def __init__(self, K, chart):$/;"	m	class:Bin
+__init__	chart.py	/^    def __init__(self, fwords, start_symbol):$/;"	m	class:Chart
+__init__	consensus_training.py	/^    def __init__(self, max_n):$/;"	m	class:NgramCounter
+__init__	consensus_training.py	/^    def __init__(self, max_n, features, hgdir, refs):$/;"	m	class:ConsensusTrainer
+__init__	consensus_training.py	/^    def __init__(self,$/;"	m	class:ConsensusTrainingCounter
+__init__	corpus_server.py	/^    def __init__(self, nodes):$/;"	m	class:CorpusServer
+__init__	cube.py	/^    def __init__(self):$/;"	m	class:Cube
+__init__	decode.py	/^    def __init__(self, heuristic='cyk'):$/;"	m	class:Agenda
+__init__	decode.py	/^    def __init__(self, rule=None, ants=None, features=None):$/;"	m	class:Deduction
+__init__	decode.py	/^    def __init__(self, var, i, j, state, deduction, cost):$/;"	m	class:Item
+__init__	decode.py	/^    def __init__(self,$/;"	m	class:Decoder
+__init__	dot_chart.py	/^    def __init__(self, chart, grammar):$/;"	m	class:DotChart
+__init__	dot_chart.py	/^    def __init__(self, node, i, j, ants):$/;"	m	class:DotItem
+__init__	feature.py	/^    def __init__(self):$/;"	m	class:FE
+__init__	feature.py	/^    def __init__(self):$/;"	m	class:Feature
+__init__	feature.py	/^    def __init__(self):$/;"	m	class:ITG
+__init__	feature.py	/^    def __init__(self):$/;"	m	class:LengthPenalty
+__init__	feature.py	/^    def __init__(self):$/;"	m	class:NTMismatch
+__init__	feature.py	/^    def __init__(self, m, lmfile):$/;"	m	class:LM
+__init__	feature.py	/^    def __init__(self, m, lmfile):$/;"	m	class:MockLM
+__init__	features.py	/^    def __init__(self, features_weights, weight_range_str=None):$/;"	m	class:Features
+__init__	gflags.py	/^  def __init__(self):$/;"	m	class:FlagValues
+__init__	gflags.py	/^  def __init__(self):$/;"	m	class:HelpFlag
+__init__	gflags.py	/^  def __init__(self):$/;"	m	class:HelpXMLFlag
+__init__	gflags.py	/^  def __init__(self):$/;"	m	class:HelpshortFlag
+__init__	gflags.py	/^  def __init__(self):$/;"	m	class:ListParser
+__init__	gflags.py	/^  def __init__(self):$/;"	m	class:WhitespaceSeparatedListParser
+__init__	gflags.py	/^  def __init__(self, *args, **kwargs):$/;"	m	class:MultiFlag
+__init__	gflags.py	/^  def __init__(self, enum_values=None):$/;"	m	class:EnumParser
+__init__	gflags.py	/^  def __init__(self, flagname, flag_values, other_flag_values=None):$/;"	m	class:DuplicateFlagError
+__init__	gflags.py	/^  def __init__(self, flagname, flagvalue=''):$/;"	m	class:UnrecognizedFlagError
+__init__	gflags.py	/^  def __init__(self, list_sep):$/;"	m	class:ListSerializer
+__init__	gflags.py	/^  def __init__(self, lower_bound=None, upper_bound=None):$/;"	m	class:FloatParser
+__init__	gflags.py	/^  def __init__(self, lower_bound=None, upper_bound=None):$/;"	m	class:IntegerParser
+__init__	gflags.py	/^  def __init__(self, name, default, help, enum_values=None,$/;"	m	class:EnumFlag
+__init__	gflags.py	/^  def __init__(self, name, default, help, short_name=None, **args):$/;"	m	class:BooleanFlag
+__init__	gflags.py	/^  def __init__(self, parser, serializer, name, default, help_string,$/;"	m	class:Flag
+__init__	gflags.py	/^  def __init__(self, token=None, name=None):$/;"	m	class:BaseListParser
+__init__	gflags_validators.py	/^  def __init__(self, checker, message):$/;"	m	class:Validator
+__init__	gflags_validators.py	/^  def __init__(self, flag_name, checker, message):$/;"	m	class:SimpleValidator
+__init__	gflags_validators.py	/^  def __init__(self, flag_names, checker, message):$/;"	m	class:DictionaryValidator
+__init__	grammar.py	/^    def __init__(self, K):$/;"	m	class:RuleBin
+__init__	grammar.py	/^    def __init__(self, filename, rule_bin_size, features):$/;"	m	class:LexicalITG
+__init__	grammar.py	/^    def __init__(self, filename, rule_bin_size, features):$/;"	m	class:SCFG
+__init__	grammar.py	/^    def __init__(self, rule_bin_size):$/;"	m	class:Grammar
+__init__	grammar.py	/^    def __init__(self, rule_bin_size, sym_list):$/;"	m	class:TrieNode
+__init__	hypergraph.py	/^    def __init__(self):$/;"	m	class:Edge
+__init__	hypergraph.py	/^    def __init__(self):$/;"	m	class:Node
+__init__	hypergraph.py	/^    def __init__(self, edge, subpaths):$/;"	m	class:Path
+__init__	hypergraph.py	/^    def __init__(self, node_class=Node, edge_class=Edge):$/;"	m	class:Deserializer
+__init__	hypergraph.py	/^    def __init__(self, root):$/;"	m	class:Hypergraph
+__init__	lazy_list_merger.py	/^    def __init__(self):$/;"	m	class:LazyListMerger
+__init__	monitor.py	/^    def __init__(self, node=None):$/;"	m	class:Monitor
+__init__	mymonitor.py	/^    def __init__(self, v=0, s=""):$/;"	m	class:Mem
+__init__	ngram.py	/^    def __init__(self, order):$/;"	m	class:NgramEnumerator
+__init__	percent_counter.py	/^    def __init__(self, total=-1, input='', file=stdout):$/;"	m	class:PercentCounter
+__init__	references.py	/^    def __init__(self, max_n):$/;"	m	class:RefCounter
+__init__	references.py	/^    def __init__(self, ref_prefix, max_n):$/;"	m	class:References
+__init__	rule.py	/^    def __init__(self):$/;"	m	class:Rule
+__init__	translation_job.py	/^    def __init__(self,$/;"	m	class:TranslationJob
+__iter__	chart.py	/^    def __iter__(self):$/;"	m	class:Bin	file:
+__iter__	chart.py	/^    def __iter__(self):$/;"	m	class:SimpleBin	file:
+__iter__	gflags.py	/^  def __iter__(self):$/;"	m	class:FlagValues	file:
+__iter__	hypergraph.py	/^    def __iter__(self):$/;"	m	class:Hypergraph	file:
+__len__	chart.py	/^    def __len__(self):$/;"	m	class:Bin	file:
+__len__	chart.py	/^    def __len__(self):$/;"	m	class:Chart	file:
+__len__	chart.py	/^    def __len__(self):$/;"	m	class:SimpleBin	file:
+__len__	decode.py	/^    def __len__(self):$/;"	m	class:Agenda	file:
+__len__	grammar.py	/^    def __len__(self):$/;"	m	class:RuleBin	file:
+__lt__	decode.py	/^    def __lt__(self, other):$/;"	m	class:Item	file:
+__lt__	gflags.py	/^  def __lt__(self, other):$/;"	m	class:Flag	file:
+__lt__	hypergraph.py	/^    def __lt__(self, other):$/;"	m	class:Path	file:
+__lt__	mymonitor.py	/^    def __lt__(self, other):$/;"	m	class:Mem	file:
+__lt__	rule.py	/^    def __lt__(self, other):$/;"	m	class:Rule	file:
+__metaclass__	gflags.py	/^  __metaclass__ = _ArgumentParserCache$/;"	v	class:ArgumentParser
+__repr__	feature.py	/^    def __repr__(self):$/;"	m	class:Feature	file:
+__setattr__	gflags.py	/^  def __setattr__(self, name, value):$/;"	m	class:FlagValues	file:
+__setitem__	gflags.py	/^  def __setitem__(self, name, flag):$/;"	m	class:FlagValues	file:
+__slots__	mymonitor.py	/^    __slots__ = "v", "s"$/;"	v	class:Mem
+__str__	cube.py	/^    def __str__(self):$/;"	m	class:Cube	file:
+__str__	decode.py	/^    def __str__(self):$/;"	m	class:Deduction	file:
+__str__	decode.py	/^    def __str__(self):$/;"	m	class:Item	file:
+__str__	dot_chart.py	/^    def __str__(self):$/;"	m	class:DotItem	file:
+__str__	features.py	/^    def __str__(self):$/;"	m	class:Features	file:
+__str__	gflags.py	/^  def __str__(self):$/;"	m	class:FlagValues	file:
+__str__	lazy_list_merger.py	/^    def __str__(self):$/;"	m	class:LazyListMerger	file:
+__str__	mymonitor.py	/^    def __str__(self):$/;"	m	class:Mem	file:
+__str__	rule.py	/^    def __str__(self):$/;"	m	class:Rule	file:
+__sub__	mymonitor.py	/^    def __sub__(self, other):$/;"	m	class:Mem	file:
+_exported_flags	gflags.py	/^_exported_flags = {}$/;"	v
+_help_width	gflags.py	/^_help_width = 80  # width of help output$/;"	v
+_instances	gflags.py	/^  _instances = {}$/;"	v	class:_ArgumentParserCache
+_proc_status	monitor.py	/^_proc_status = '\/proc\/%d\/status' % os.getpid()$/;"	v
+_scale	monitor.py	/^_scale = {'kB': 1024.0, 'mB': 1024.0*1024.0,$/;"	v
+add	chart.py	/^    def add(self, item):$/;"	m	class:Bin
+add	chart.py	/^    def add(self, item):$/;"	m	class:Chart
+add	chart.py	/^    def add(self, item):$/;"	m	class:SimpleBin
+add	dot_chart.py	/^    def add(self, dotitem):$/;"	m	class:DotChart
+add	features.py	/^    def add(self, feature, weight):$/;"	m	class:Features
+add	grammar.py	/^    def add(self, rule):$/;"	m	class:Grammar
+add	grammar.py	/^    def add(self, rule):$/;"	m	class:RuleBin
+add	grammar.py	/^    def add(self, rule):$/;"	m	class:TrieNode
+add_cube	cube.py	/^    def add_cube(self, cube, op):$/;"	m	class:Cube
+add_incoming	hypergraph.py	/^    def add_incoming(self, edge):$/;"	m	class:Node
+add_list	lazy_list_merger.py	/^    def add_list(self, l):$/;"	m	class:LazyListMerger
+add_tail	hypergraph.py	/^    def add_tail(self, node):$/;"	m	class:Edge
+agenda_stats	decode.py	/^    def agenda_stats(self):$/;"	m	class:Decoder
+align_special_symbols	rule.py	/^    def align_special_symbols(self):$/;"	m	class:Rule
+argv	common.py	/^        argv = FLAGS(sys.argv)  # parse flags$/;"	v
+argv	decoder.py	/^        argv = FLAGS(sys.argv)  # parse flags$/;"	v
+assert_done	hypergraph.py	/^    def assert_done(self, task):$/;"	m	class:Hypergraph
+best_first_heuristic	decode.py	/^def best_first_heuristic(item):$/;"	f
+best_paths	hypergraph.py	/^    def best_paths(self):$/;"	m	class:Node
+bi_cyk_spans	common.py	/^def bi_cyk_spans(n1, n2):$/;"	f
+binary_expand	decode.py	/^    def binary_expand(self, i, j):$/;"	m	class:Decoder
+build	grammar.py	/^    def build(self, rules, features):$/;"	m	class:Grammar
+cartesian	consensus_training.py	/^def cartesian(l):$/;"	f
+cgi	gflags.py	/^import cgi$/;"	i
+closest_length	references.py	/^    def closest_length(self, n):$/;"	m	class:RefCounter
+collect_expected_feature_counts	consensus_training.py	/^    def collect_expected_feature_counts(self):$/;"	m	class:ConsensusTrainer
+collect_expected_ngram_counts	consensus_training.py	/^    def collect_expected_ngram_counts(self):$/;"	m	class:ConsensusTrainer
+collect_expected_products	consensus_training.py	/^    def collect_expected_products(self):$/;"	m	class:ConsensusTrainer
+collect_ref_length	consensus_training.py	/^    def collect_ref_length(self):$/;"	m	class:ConsensusTrainer
+complete	dot_chart.py	/^    def complete(self, i, k, j):$/;"	m	class:DotChart
+compose	rule.py	/^    def compose(self, rules):$/;"	m	class:Rule
+compute_cobleu	consensus_training.py	/^    def compute_cobleu(self):$/;"	m	class:ConsensusTrainer
+compute_edge_expectation	consensus_training.py	/^    def compute_edge_expectation(self, f):$/;"	m	class:ConsensusTrainingCounter
+compute_edge_posterior	consensus_training.py	/^    def compute_edge_posterior(self): $/;"	m	class:ConsensusTrainingCounter
+compute_expected_feature_counts	consensus_training.py	/^    def compute_expected_feature_counts(self):$/;"	m	class:ConsensusTrainingCounter
+compute_expected_ngram_counts	consensus_training.py	/^    def compute_expected_ngram_counts(self):$/;"	m	class:ConsensusTrainingCounter
+compute_expected_products	consensus_training.py	/^    def compute_expected_products(self):$/;"	m	class:ConsensusTrainingCounter
+compute_gradient	consensus_training.py	/^    def compute_gradient(self):$/;"	m	class:ConsensusTrainer
+copy	rule.py	/^import copy$/;"	i
+count	consensus_training.py	/^    def count(self, hg):$/;"	m	class:NgramCounter
+count	references.py	/^    def count(self, i, ngram):$/;"	m	class:References
+count	references.py	/^    def count(self, line):$/;"	m	class:RefCounter
+count_lines	common.py	/^def count_lines(filename):$/;"	f
+count_lines	percent_counter.py	/^from common import count_lines$/;"	i
+count_lines	references.py	/^from common import count_lines, INF$/;"	i
+count_ngrams	consensus_training.py	/^    def count_ngrams(self):$/;"	m	class:ConsensusTrainingCounter
+cpu	mymonitor.py	/^def cpu():$/;"	f
+cpu_usage	monitor.py	/^    def cpu_usage(self, interval=1):$/;"	m	class:Monitor
+cube_op	decode.py	/^        def cube_op(operands):$/;"	f	function:Decoder.get_cube_op
+cyk_heuristic	decode.py	/^def cyk_heuristic(item):$/;"	f
+cyk_spans	common.py	/^def cyk_spans(n):$/;"	f
+cyk_spans	decode.py	/^from common import cyk_spans$/;"	i
+cyk_spans	dot_chart.py	/^from common import cyk_spans$/;"	i
+datetime	logger.py	/^import datetime$/;"	i
+decode	decode.py	/^    def decode(self):$/;"	m	class:Decoder
+decode_cyk	decode.py	/^    def decode_cyk(self):$/;"	m	class:Decoder
+decode_earley	decode.py	/^    def decode_earley(self):$/;"	m	class:Decoder
+decoder_feature	consensus_training.py	/^    def decoder_feature(self, i):$/;"	m	class:ConsensusTrainingCounter
+decoding_features	decoder.py	/^decoding_features = None$/;"	v
+decoding_flags	chart.py	/^import decoding_flags$/;"	i
+decoding_flags	decode.py	/^import decoding_flags$/;"	i
+decoding_flags	grammar.py	/^import decoding_flags$/;"	i
+deduce	decode.py	/^    def deduce(self, items):$/;"	m	class:Decoder
+deduce_with_itg	decode.py	/^    def deduce_with_itg(self, itg, items):$/;"	m	class:Decoder
+degree	hypergraph.py	/^    def degree(self):$/;"	m	class:Edge
+deserialize	decode.py	/^    def deserialize(self, line):$/;"	m	class:Deduction
+deserialize	hypergraph.py	/^    def deserialize(self, filename):$/;"	m	class:Deserializer
+deserialize	hypergraph.py	/^    def deserialize(self, s):$/;"	m	class:Edge
+deserialize	hypergraph.py	/^    def deserialize(self, s):$/;"	m	class:Node
+doctest	consensus_training.py	/^    import doctest$/;"	i
+doctest	cube.py	/^    import doctest$/;"	i
+doctest	lazy_list_merger.py	/^    import doctest$/;"	i
+doctest	rule.py	/^    import doctest$/;"	i
+dot	hypergraph.py	/^    def dot(self, color='', detailed=True):$/;"	m	class:Node
+dot	hypergraph.py	/^    def dot(self, detailed=True):$/;"	m	class:Hypergraph
+dot_label	hypergraph.py	/^    def dot_label(self):$/;"	m	class:Edge
+dot_label	hypergraph.py	/^    def dot_label(self, detailed = True):$/;"	m	class:Node
+dumped_format	rule.py	/^    def dumped_format(self):$/;"	m	class:Rule
+edges	hypergraph.py	/^    def edges(self):$/;"	m	class:Hypergraph
+edges	hypergraph.py	/^    def edges(self):$/;"	m	class:Path
+eexp	logprob.py	/^def eexp(x):$/;"	f
+elide	ngram.py	/^    def elide(self, s):$/;"	m	class:NgramEnumerator
+elog	feature.py	/^from logprob import elog, elog10$/;"	i
+elog	grammar.py	/^from logprob import elog$/;"	i
+elog	logprob.py	/^def elog(x):$/;"	f
+elog10	feature.py	/^from logprob import elog, elog10$/;"	i
+elog10	logprob.py	/^def elog10(x):$/;"	f
+escape_quote	hypergraph.py	/^def escape_quote(s):$/;"	f
+exp	logprob.py	/^from math import log, log10, exp$/;"	i
+expand	dot_chart.py	/^    def expand(self, i, j):$/;"	m	class:DotChart
+expectation	hypergraph.py	/^    def expectation(self):$/;"	m	class:Edge
+expected_count	consensus_training.py	/^    def expected_count(self, f):$/;"	m	class:ConsensusTrainingCounter
+expected_product	consensus_training.py	/^    def expected_product(self, f):$/;"	m	class:ConsensusTrainingCounter
+fcntl	gflags.py	/^  fcntl = None$/;"	v
+fcntl	gflags.py	/^  import fcntl$/;"	i
+feature_lib	features.py	/^import feature as feature_lib$/;"	i
+file	logger.py	/^file = sys.stderr$/;"	v
+find_reachable_nodes	hypergraph.py	/^    def find_reachable_nodes(self):$/;"	m	class:Hypergraph
+finish	corpus_server.py	/^    def finish(self):$/;"	m	class:CorpusServer
+finish	job_logger.py	/^    def finish(self):$/;"	m	class:JobLogger
+fnts	rule.py	/^    def fnts(self):$/;"	m	class:Rule
+freemem	mymonitor.py	/^def freemem():$/;"	f
+fromstr	rule.py	/^    def fromstr(self, line):$/;"	m	class:Rule
+fwi_aligned_to_ewi	rule.py	/^    def fwi_aligned_to_ewi(self, ewi):$/;"	m	class:Rule
+gc	mymonitor.py	/^import sys, os, gc$/;"	i
+gc_collect	mymonitor.py	/^def gc_collect():$/;"	f
+get	gflags.py	/^  def get(self, name, default):$/;"	m	class:FlagValues
+get_counter	references.py	/^    def get_counter(self, i):$/;"	m	class:References
+get_cube_op	decode.py	/^    def get_cube_op(self, i, j):$/;"	m	class:Decoder
+get_fcosts_list	hypergraph.py	/^    def get_fcosts_list(self):$/;"	m	class:Path
+get_features	features.py	/^    def get_features(self):$/;"	m	class:Features
+get_goal	decode.py	/^    def get_goal(self, outfake = False):$/;"	m	class:Decoder
+get_jobs	decoder.py	/^def get_jobs(range):$/;"	f
+get_meminfo_file	monitor.py	/^    def get_meminfo_file(self, node=None):$/;"	m	class:Monitor
+get_num_edges	feature.py	/^from rule import get_num_edges$/;"	i
+get_num_edges	rule.py	/^def get_num_edges(rule_str):$/;"	f
+get_num_edges	translation_job.py	/^from rule import get_num_edges$/;"	i
+get_ref_files	references.py	/^    def get_ref_files(self, ref_prefix):$/;"	m	class:References
+get_sorted_rules	grammar.py	/^    def get_sorted_rules(self):$/;"	m	class:TrieNode
+get_sorted_rules	grammar.py	/^    def get_sorted_rules(self, sym_list):$/;"	m	class:Grammar
+get_stat_file	monitor.py	/^    def get_stat_file(self, node=None):$/;"	m	class:Monitor
+get_train_jobs	decoder.py	/^def get_train_jobs(cnt = -1):$/;"	f
+get_trie_node	grammar.py	/^    def get_trie_node(self, sym_list):$/;"	m	class:Grammar
+getopt	gflags.py	/^import getopt$/;"	i
+gflags	chart.py	/^import gflags$/;"	i
+gflags	common.py	/^import gflags$/;"	i
+gflags	corpus_server.py	/^import gflags$/;"	i
+gflags	decode.py	/^import gflags$/;"	i
+gflags	decoder.py	/^import gflags$/;"	i
+gflags	decoding_flags.py	/^import gflags$/;"	i
+gflags	dot_chart.py	/^import gflags$/;"	i
+gflags	feature.py	/^import gflags$/;"	i
+gflags	features.py	/^import gflags$/;"	i
+gflags	grammar.py	/^import gflags$/;"	i
+gflags	hypergraph.py	/^import gflags$/;"	i
+gflags	job_logger.py	/^import gflags$/;"	i
+gflags	logger.py	/^import gflags$/;"	i
+gflags	rule.py	/^import gflags$/;"	i
+gflags	translation_job.py	/^import gflags$/;"	i
+gflags_validators	gflags.py	/^import gflags_validators$/;"	i
+goal	decode.py	/^    def goal(self):$/;"	m	class:Item
+grammars	decoder.py	/^grammars = None$/;"	v
+handle	corpus_server.py	/^    def handle(self, conn):$/;"	m	class:CorpusServer
+has_key	gflags.py	/^  has_key = __contains__  # a synonym for __contains__()$/;"	v	class:FlagValues
+heapify	chart.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heapify	cube.py	/^from heapq import heapify, heappop, heappush$/;"	i
+heapify	decode.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heapify	grammar.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heapify	lazy_list_merger.py	/^from heapq import heapify, heappop, heappush$/;"	i
+heappop	chart.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heappop	cube.py	/^from heapq import heapify, heappop, heappush$/;"	i
+heappop	decode.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heappop	grammar.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heappop	lazy_list_merger.py	/^from heapq import heapify, heappop, heappush$/;"	i
+heappush	chart.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heappush	cube.py	/^from heapq import heapify, heappop, heappush$/;"	i
+heappush	decode.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heappush	grammar.py	/^from heapq import heapify, heappush, heappop$/;"	i
+heappush	lazy_list_merger.py	/^from heapq import heapify, heappop, heappush$/;"	i
+heuristic	feature.py	/^    def heuristic(self, item):$/;"	m	class:Feature
+heuristic	feature.py	/^    def heuristic(self, item):$/;"	m	class:LM
+human	feature.py	/^from mymonitor import human, memory$/;"	i
+human	mymonitor.py	/^def human(v):$/;"	f
+hypergraph	consensus_training.py	/^import hypergraph$/;"	i
+hypergraph	decode.py	/^import hypergraph$/;"	i
+hypergraph	translation_job.py	/^import hypergraph$/;"	i
+id_str	hypergraph.py	/^    def id_str(self):$/;"	m	class:Node
+init	rule.py	/^    def init(self, lhs, f, e, e2f):$/;"	m	class:Rule
+initialize	decode.py	/^    def initialize(self):$/;"	m	class:Decoder
+initialize	grammar.py	/^    def initialize(self):$/;"	m	class:LexicalITG
+initialize	grammar.py	/^    def initialize(self):$/;"	m	class:SCFG
+initialize_earley	decode.py	/^    def initialize_earley(self):$/;"	m	class:Decoder
+initialize_with_lexgrammar	decode.py	/^    def initialize_with_lexgrammar(self, lexgrammar):$/;"	m	class:Decoder
+inside	hypergraph.py	/^    def inside(self):$/;"	m	class:Hypergraph
+inside_exp	hypergraph.py	/^    def inside_exp(self):$/;"	m	class:Hypergraph
+is_ghkm	feature.py	/^def is_ghkm(rule):$/;"	f
+is_glue	feature.py	/^def is_glue(rule):$/;"	f
+is_hiero	feature.py	/^def is_hiero(rule):$/;"	f
+is_phrase	feature.py	/^def is_phrase(rule):$/;"	f
+is_virtual	chart.py	/^from rule import is_virtual, nocat$/;"	i
+is_virtual	decode.py	/^from rule import Rule, is_virtual, nocat$/;"	i
+is_virtual	features.py	/^from rule import is_virtual$/;"	i
+is_virtual	rule.py	/^def is_virtual(sym):$/;"	f
+isvar	feature.py	/^from rule import isvar$/;"	i
+isvar	grammar.py	/^from rule import Rule, isvar, nocat$/;"	i
+isvar	rule.py	/^def isvar(s):$/;"	f
+items	chart.py	/^    def items(self, i, j):$/;"	m	class:Chart
+iter_bins	dot_chart.py	/^    def iter_bins(self):$/;"	m	class:DotChart
+iter_items_by_nts	chart.py	/^    def iter_items_by_nts(self, i, j):$/;"	m	class:Chart
+iter_rulebins	grammar.py	/^    def iter_rulebins(self):$/;"	m	class:TrieNode
+iter_rules	grammar.py	/^    def iter_rules(self):$/;"	m	class:RuleBin
+iter_rules	grammar.py	/^    def iter_rules(self):$/;"	m	class:TrieNode
+iter_rules	grammar.py	/^    def iter_rules(self, sym_list):$/;"	m	class:Grammar
+iter_top	cube.py	/^    def iter_top(self, n):$/;"	m	class:Cube
+iter_top	lazy_list_merger.py	/^    def iter_top(self, n):$/;"	m	class:LazyListMerger
+iter_top_univar	cube.py	/^    def iter_top_univar(self, n):$/;"	m	class:Cube
+iter_trie_nodes	grammar.py	/^    def iter_trie_nodes(self):$/;"	m	class:Grammar
+iter_unknown_items	decode.py	/^    def iter_unknown_items(self):$/;"	m	class:Decoder
+iterbins	chart.py	/^    def iterbins(self):$/;"	m	class:Chart
+key	chart.py	/^    def key(self, item):$/;"	m	class:Chart
+key	rule.py	/^    def key(self):$/;"	m	class:Rule
+leftneighbors	chart.py	/^    def leftneighbors(self, item):$/;"	m	class:Chart
+level	logger.py	/^level = 1$/;"	v
+lexical	rule.py	/^    def lexical(self):$/;"	m	class:Rule
+listsum	consensus_training.py	/^    def listsum(self, l1, l2):$/;"	m	class:ConsensusTrainer
+lm_checker	decoder.py	/^def lm_checker(value):$/;"	f
+load	grammar.py	/^    def load(self, filename):$/;"	m	class:LexicalITG
+load	grammar.py	/^    def load(self, filename):$/;"	m	class:SCFG
+load	references.py	/^    def load(self):$/;"	m	class:References
+load_features	features.py	/^    def load_features(self, features_weights):$/;"	m	class:Features
+log	consensus_training.py	/^    def log(self, f):$/;"	m	class:ConsensusTrainingCounter
+log	job_logger.py	/^    def log(self, jid):$/;"	m	class:JobLogger
+log	logprob.py	/^from math import log, log10, exp$/;"	i
+log10	logprob.py	/^from math import log, log10, exp$/;"	i
+logger	chart.py	/^import logger$/;"	i
+logger	common.py	/^import logger$/;"	i
+logger	consensus_training.py	/^import logger$/;"	i
+logger	corpus_server.py	/^import logger$/;"	i
+logger	decode.py	/^import logger$/;"	i
+logger	decoder.py	/^import logger$/;"	i
+logger	dot_chart.py	/^import logger$/;"	i
+logger	feature.py	/^import logger$/;"	i
+logger	features.py	/^import logger$/;"	i
+logger	grammar.py	/^import logger$/;"	i
+logger	hypergraph.py	/^import logger$/;"	i
+logger	job_logger.py	/^import logger$/;"	i
+logger	monitor.py	/^import logger$/;"	i
+logger	rule.py	/^import logger$/;"	i
+logger	translation_job.py	/^import logger$/;"	i
+logprob	consensus_training.py	/^import logprob$/;"	i
+logprod	hypergraph.py	/^from logprob import logsum, logprod, LOGZERO$/;"	i
+logprod	logprob.py	/^def logprod(logx, logy):$/;"	f
+logs	mymonitor.py	/^logs = sys.stderr$/;"	v
+logsum	hypergraph.py	/^from logprob import logsum, logprod, LOGZERO$/;"	i
+logsum	logprob.py	/^def logsum(logx, logy):$/;"	f
+m	monitor.py	/^    m = Monitor()$/;"	v	class:Monitor
+main	decoder.py	/^def main():$/;"	f
+make_new_item	features.py	/^    def make_new_item(self, rule, ants, i, j):$/;"	m	class:Features
+make_path	decode.py	/^    def make_path(self, subpaths):$/;"	m	class:Deduction
+make_path	hypergraph.py	/^    def make_path(self, subpaths):$/;"	m	class:Edge
+mark_ngrams	consensus_training.py	/^    def mark_ngrams(self, hg):$/;"	m	class:NgramCounter
+math	decoder.py	/^import math$/;"	i
+mem_free	monitor.py	/^    def mem_free(self):$/;"	m	class:Monitor
+mem_info	mymonitor.py	/^mem_info = '\/proc\/meminfo'$/;"	v
+memory	feature.py	/^from mymonitor import human, memory$/;"	i
+memory	monitor.py	/^def memory(since=0.0):$/;"	f
+memory	mymonitor.py	/^def memory(since=0.0):$/;"	f
+merge	decode.py	/^    def merge(self, item):$/;"	m	class:Item
+merge	dot_chart.py	/^    def merge(self, other):$/;"	m	class:DotItem
+monitor	mymonitor.py	/^import monitor$/;"	i
+neighbors	hypergraph.py	/^    def neighbors(self, max_dist=3):$/;"	m	class:Node
+new_weights	consensus_training.py	/^    def new_weights(self, weights, direction, stepsize):$/;"	m	class:ConsensusTrainer
+ngram_clipped_count	consensus_training.py	/^    def ngram_clipped_count(self, n):$/;"	m	class:ConsensusTrainingCounter
+ngram_cost	feature.py	/^    def ngram_cost(self, s):$/;"	m	class:LM
+ngram_cost	feature.py	/^    def ngram_cost(self, s):$/;"	m	class:MockLM
+ngram_count	consensus_training.py	/^    def ngram_count(self, n):$/;"	m	class:ConsensusTrainingCounter
+ngrams	ngram.py	/^    def ngrams(self, s):$/;"	m	class:NgramEnumerator
+nocat	chart.py	/^from rule import is_virtual, nocat$/;"	i
+nocat	decode.py	/^from rule import Rule, is_virtual, nocat$/;"	i
+nocat	grammar.py	/^from rule import Rule, isvar, nocat$/;"	i
+nocat	rule.py	/^def nocat(s):$/;"	f
+nonlexical	rule.py	/^    def nonlexical(self):$/;"	m	class:Rule
+normalize_weights	consensus_training.py	/^    def normalize_weights(self):$/;"	m	class:ConsensusTrainer
+nt_escape	rule.py	/^def nt_escape(sym):$/;"	f
+number_article	gflags.py	/^  number_article = "a"$/;"	v	class:FloatParser
+number_article	gflags.py	/^  number_article = "an"$/;"	v	class:IntegerParser
+number_name	gflags.py	/^  number_name = "integer"$/;"	v	class:IntegerParser
+number_name	gflags.py	/^  number_name = "number"$/;"	v	class:FloatParser
+optimize	consensus_training.py	/^    def optimize(self):$/;"	m	class:ConsensusTrainer
+os	consensus_training.py	/^import os$/;"	i
+os	corpus_server.py	/^import os$/;"	i
+os	decoder.py	/^import os$/;"	i
+os	gflags.py	/^import os$/;"	i
+os	grammar.py	/^import os$/;"	i
+os	hypergraph.py	/^import os$/;"	i
+os	job_logger.py	/^import os$/;"	i
+os	monitor.py	/^import os$/;"	i
+os	mymonitor.py	/^import sys, os, gc$/;"	i
+os	references.py	/^import os$/;"	i
+os	rule.py	/^import os$/;"	i
+out_of_range	consensus_training.py	/^    def out_of_range(self, weights):$/;"	m	class:ConsensusTrainer
+outside	hypergraph.py	/^    def outside(self):$/;"	m	class:Hypergraph
+outside_exp	hypergraph.py	/^    def outside_exp(self):$/;"	m	class:Hypergraph
+parse_flags	common.py	/^def parse_flags():$/;"	f
+parse_proc_stat	monitor.py	/^    def parse_proc_stat(self):$/;"	m	class:Monitor
+parse_weight_ranges	features.py	/^    def parse_weight_ranges(self, weight_range_str):$/;"	m	class:Features
+pattern	translation_job.py	/^pattern = re.compile(r'(\\$number|\\$date)\\s*\\{\\s*(.*?)\\s*\\}')$/;"	v
+persentence	grammar.py	/^    def persentence(self):$/;"	m	class:SCFG
+pickle	translation_job.py	/^import pickle$/;"	i
+pop	decode.py	/^    def pop(self):$/;"	m	class:Agenda
+posterior	hypergraph.py	/^    def posterior(self):$/;"	m	class:Edge
+preprocess	translation_job.py	/^def preprocess(line):$/;"	f
+print_percent	percent_counter.py	/^    def print_percent(self, i):$/;"	m	class:PercentCounter
+probe	monitor.py	/^    def probe(self, cpu_reserve, mem_reserve):$/;"	m	class:Monitor
+proc_status	mymonitor.py	/^proc_status = '\/proc\/%d\/status' % os.getpid()$/;"	v
+prune	chart.py	/^    def prune(self):$/;"	m	class:Bin
+prune	grammar.py	/^    def prune(self):$/;"	m	class:RuleBin
+push	decode.py	/^    def push(self, item):$/;"	m	class:Agenda
+rank_cost	decode.py	/^    def rank_cost(self):$/;"	m	class:Item
+rank_cost	rule.py	/^    def rank_cost(self):$/;"	m	class:Rule
+re	gflags.py	/^import re$/;"	i
+re	rule.py	/^import re$/;"	i
+re	translation_job.py	/^import re$/;"	i
+reform_edge	rule.py	/^def reform_edge(s):$/;"	f
+reset	grammar.py	/^    def reset(self):$/;"	m	class:Grammar
+resident	monitor.py	/^def resident(since=0.0):$/;"	f
+retrieve_edges	rule.py	/^def retrieve_edges(rule_str):$/;"	f
+reverse_topo_order	hypergraph.py	/^    def reverse_topo_order(self):$/;"	m	class:Hypergraph
+rewrite	rule.py	/^    def rewrite(self, vars):$/;"	m	class:Rule
+rightneighbors	chart.py	/^    def rightneighbors(self, item):$/;"	m	class:Chart
+rule_costs	features.py	/^    def rule_costs(self, rule):$/;"	m	class:Features
+rule_f	rule.py	/^rule_f = open(os.path.join(os.getcwd(), 'hrg_error.log'), 'a')$/;"	v
+run	corpus_server.py	/^    def run(self):$/;"	m	class:CorpusServer
+run	translation_job.py	/^    def run(self, feature = None):$/;"	m	class:TranslationJob
+sanity_check	hypergraph.py	/^    def sanity_check(self):$/;"	m	class:Hypergraph
+scale	mymonitor.py	/^scale = {'B': 1.0,$/;"	v
+scan	dot_chart.py	/^    def scan(self, i, j):$/;"	m	class:DotChart
+scope	rule.py	/^    def scope(self):$/;"	m	class:Rule
+score_list	features.py	/^    def score_list(self, costs):$/;"	m	class:Features
+score_rule	features.py	/^    def score_rule(self, rule):$/;"	m	class:Features
+score_rule_fake	features.py	/^    def score_rule_fake(self, rule):$/;"	m	class:Features
+select	common.py	/^def select(l):$/;"	f
+serialize	decode.py	/^    def serialize(self):$/;"	m	class:Deduction
+serialize	hypergraph.py	/^    def serialize(self):$/;"	m	class:Edge
+serialize	hypergraph.py	/^    def serialize(self):$/;"	m	class:Node
+serialize	hypergraph.py	/^    def serialize(self, filename):$/;"	m	class:Hypergraph
+serve	corpus_server.py	/^    def serve(self):$/;"	m	class:CorpusServer
+set_functions	hypergraph.py	/^    def set_functions(self, w, f, g):$/;"	m	class:Hypergraph
+set_semiring	hypergraph.py	/^    def set_semiring(self, semiring):$/;"	m	class:Hypergraph
+show	hypergraph.py	/^    def show(self):$/;"	m	class:Hypergraph
+show_neighborhood	hypergraph.py	/^    def show_neighborhood(self, max_dist=3, detailed=True):$/;"	m	class:Node
+single_worker_decode	decoder.py	/^def single_worker_decode():$/;"	f
+size	grammar.py	/^    def size(self):$/;"	m	class:Grammar
+slave_mode_decode	decoder.py	/^def slave_mode_decode():$/;"	f
+sleep	decoder.py	/^from time import sleep$/;"	i
+sleep	monitor.py	/^from time import sleep$/;"	i
+socket	corpus_server.py	/^import socket$/;"	i
+socket	decoder.py	/^import socket$/;"	i
+socket	translation_job.py	/^import socket$/;"	i
+stacksize	monitor.py	/^def stacksize(since=0.0):$/;"	f
+start_slave	corpus_server.py	/^    def start_slave(self, sid, host):$/;"	m	class:CorpusServer
+start_slaves	corpus_server.py	/^    def start_slaves(self):$/;"	m	class:CorpusServer
+stats	chart.py	/^    def stats(self):$/;"	m	class:Chart
+stats	dot_chart.py	/^    def stats(self):$/;"	m	class:DotChart
+stats	grammar.py	/^    def stats(self):$/;"	m	class:LexicalITG
+stats	grammar.py	/^    def stats(self):$/;"	m	class:SCFG
+stats	hypergraph.py	/^    def stats(self):$/;"	m	class:Hypergraph
+stdout	percent_counter.py	/^from sys import stdout$/;"	i
+string	gflags.py	/^import string$/;"	i
+struct	gflags.py	/^import struct$/;"	i
+sym_str	grammar.py	/^    def sym_str(self):$/;"	m	class:TrieNode
+symbol_table	rule.py	/^    symbol_table = {}$/;"	v	class:Rule
+symfromstr	rule.py	/^def symfromstr(s):$/;"	f
+symtostr	rule.py	/^def symtostr(sym, idx):$/;"	f
+syntactic_help	gflags.py	/^  syntactic_help = " ".join((number_article, number_name))$/;"	v	class:FloatParser
+syntactic_help	gflags.py	/^  syntactic_help = " ".join((number_article, number_name))$/;"	v	class:IntegerParser
+syntactic_help	gflags.py	/^  syntactic_help = ""$/;"	v	class:ArgumentParser
+sys	common.py	/^    import sys$/;"	i
+sys	common.py	/^import sys$/;"	i
+sys	corpus_server.py	/^import sys$/;"	i
+sys	decode.py	/^import sys$/;"	i
+sys	decoder.py	/^import sys$/;"	i
+sys	feature.py	/^import sys$/;"	i
+sys	gflags.py	/^import sys$/;"	i
+sys	grammar.py	/^import sys$/;"	i
+sys	hypergraph.py	/^import sys$/;"	i
+sys	logger.py	/^import sys$/;"	i
+sys	mymonitor.py	/^import sys, os, gc$/;"	i
+sys	rule.py	/^import sys$/;"	i
+sys	translation_job.py	/^import sys$/;"	i
+system	corpus_server.py	/^from os import system$/;"	i
+system	job_logger.py	/^from os import system$/;"	i
+system	monitor.py	/^from os import system$/;"	i
+tell_server	decoder.py	/^def tell_server(data, recv=False):$/;"	f
+termios	gflags.py	/^  import termios$/;"	i
+termios	gflags.py	/^  termios = None$/;"	v
+threading	decoder.py	/^import threading$/;"	i
+time	common.py	/^import time$/;"	i
+time	corpus_server.py	/^from time import time$/;"	i
+time	translation_job.py	/^from time import time$/;"	i
+timed	common.py	/^def timed(l):$/;"	f
+topo_order	hypergraph.py	/^    def topo_order(self):$/;"	m	class:Hypergraph
+topo_sort	hypergraph.py	/^    def topo_sort(self):$/;"	m	class:Hypergraph
+tree_str	grammar.py	/^    def tree_str(self, indent=0):$/;"	m	class:TrieNode
+tree_str	hypergraph.py	/^    def tree_str(self, indent=0):$/;"	m	class:Path
+unary_cycle	decode.py	/^    def unary_cycle(self):$/;"	m	class:Item
+unary_deduce	decode.py	/^    def unary_deduce(self, item):$/;"	m	class:Decoder
+unary_expand	decode.py	/^    def unary_expand(self, i, j):$/;"	m	class:Decoder
+unary_expand	dot_chart.py	/^    def unary_expand(self, i, j):$/;"	m	class:DotChart
+unknown_word_rule	decode.py	/^    def unknown_word_rule(self, word):$/;"	m	class:Decoder
+update	consensus_training.py	/^    def update(self):$/;"	m	class:ConsensusTrainer
+update	consensus_training.py	/^    def update(self):$/;"	m	class:ConsensusTrainingCounter
+update	grammar.py	/^    def update(self, i):$/;"	m	class:LexicalITG
+update	grammar.py	/^    def update(self, i):$/;"	m	class:SCFG
+update_edge_costs	consensus_training.py	/^    def update_edge_costs(self):$/;"	m	class:ConsensusTrainingCounter
+update_features	grammar.py	/^    def update_features(self, features):$/;"	m	class:SCFG
+update_weights	features.py	/^    def update_weights(self, costs, std_costs, tr):$/;"	m	class:Features
+validators_count	gflags_validators.py	/^  validators_count = 0$/;"	v	class:Validator
+weight	feature.py	/^    def weight(self, deduction):$/;"	m	class:Feature
+weight	feature.py	/^    def weight(self, deduction):$/;"	m	class:LM
+weight	feature.py	/^    def weight(self, deduction):$/;"	m	class:MockLM
+weight	feature.py	/^    def weight(self, deduction):$/;"	m	class:NTMismatch
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:Count
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:EdgeCount
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:FE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKM
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMCount
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMGlobal
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMLHSConditional
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMLexicalCE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMLexicalEC
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMRHSConditionalCE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GHKMRHSConditionalEC
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GlueRule
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:GlueRuleCount
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:HieroCount
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:HieroLHSConditional
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:HieroLexicalCE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:HieroLexicalEC
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:HieroRHSConditionalCE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:HieroRHSConditionalEC
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:ITG
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:LengthPenalty
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:NTPunish
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:NumTerminals
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:PhraseCount
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:PhraseEF
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:PhraseFE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:PhraseLexEF
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:PhraseLexFE
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:RuleType
+weight	feature.py	/^    def weight(self, rule):$/;"	m	class:UnknownWord
+write	logger.py	/^def write(s):$/;"	f
+write_hypergraph	translation_job.py	/^    def write_hypergraph(self):$/;"	m	class:TranslationJob
+write_kbest_to_file	translation_job.py	/^    def write_kbest_to_file(self):$/;"	m	class:TranslationJob
+write_output_file	translation_job.py	/^    def write_output_file(self):$/;"	m	class:TranslationJob
+writeln	logger.py	/^def writeln(s=""):$/;"	f
