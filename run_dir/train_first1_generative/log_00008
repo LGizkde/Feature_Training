@@ -32,4 +32,4 @@ Deduction: -9.40 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:
  :ARG1 (m / model 
 	 :mod (i / innovate-01 
 		 :ARG1 (i2 / industry))))
-[time]:                                       0.02
+[time]:                                       0.03
